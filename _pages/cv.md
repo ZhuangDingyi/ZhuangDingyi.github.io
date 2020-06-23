@@ -10,13 +10,15 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Up-to-date Curriculum Vitae](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2020/06/22](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
 
 ## Education
 
 * **M.Eng (thesis) in Civil Engineering and Applied Mechanics, McGill University**  
   Sept. 2019 ~ Now  
-  Instructor: [Prof. Lijun Sun](https://lijunsun.github.io/) 
+  GPA: 3.74/4.0  
+  Instructor: [Prof. Lijun Sun](https://lijunsun.github.io/)  
+  Courses: COMP553 Algorithmic Game Theory (B+), CIVE648 Sp Topics in Civil Eng	(A), CIVE540 Urban Transportation Planning (B+), COMP551 Applied Machine Learning (A), COMP767 Reinforcement Learning (A)
 
   
 * **B.Eng. in Mechanical Engineering, Shanghai Jiao Tong University**  
@@ -43,6 +45,7 @@ redirect_from:
 * **Freshmen Scholarship**, Shanghai Jiao Tong University. 2015
 
 ## Research experience
+* 2020.8-2020.12, Intern, [Mitacs Accelerate](https://www.mitacs.ca/en/programs/accelerate) with [ExPretio](http://www.expretio.com/)
 
 * 2018.7-2018.9, research student, [Civil and Environmental Engineering](http://www.eng.nus.edu.sg/cee/) , National University of Singapore
 

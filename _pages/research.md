@@ -18,6 +18,21 @@ author_profile: true
 <!-- /TOC -->
 
 ------
+## Inductive Graph Neural Networks for Spatiotemporal Kriging
+*McGill University, Apr. 2019 ~ Jun. 2020*  
+*Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
+Co-worker: [Yuankai Wu](https://kaimaoge.github.io/)  
+* Introduced an inductive learning framework based on graph neural network that can perform efficient and transferrable kriging. [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
+* Compare the proposed model with the state-of-the-art kriging and matrix completion models.
+![](http://zhuangdingyi.github.io/files/ignnk.png)
+
+## Reinforcement Learning-based Traffic Signal Control in Special Scenarios
+*McGill University, Mar. 2020 ~ May 2020*  
+*Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/), [Doina Precup](https://www.cs.mcgill.ca/~dprecup/)  
+Co-worker: [Zhenyuan Ma](https://zhenyuanma.github.io/)  
+* Point out that reinforcement learning traffic signal control should not only focus on regular intersection, but also special scenarios like high-way offramps. [video](https://www.youtube.com/watch?v=wtCUl-WCAj0&feature=youtu.be) [code](https://github.com/ZhuangDingyi/COMP-767-Project)
+* Both Reinforcement learning efficiency and saftey issues will greatly influenced by scenario changing like simply adding an offramp, which leaves concerns for using reinforcement learning signal control.
+![](http://zhuangdingyi.github.io/files/comp767.gif)
 
 ## A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction
 *McGill University, Dec. 2019 ~ Feb. 2020*  

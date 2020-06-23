@@ -7,7 +7,8 @@ author_profile: true
 **Research project list**
 
 <!-- TOC -->
-
+- [Inductive Graph Neural Networks for Spatiotemporal Kriging](#inductive-graph-neural-networks-for-spatiotemporal-kriging)
+- [Reinforcement Learning-based Traffic Signal Control in Special Scenarios](#reinforcement-learning-based-traffic-signal-control-in-special-scenarios)
 - [A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction](#a-general-framework-based-on-temporally-dynamic-adjacency-matrix-for-long-term-traffic-prediction)
 - [Bayesian Poisson Tensor Factorization for Learning Paratransit Mobility Patterns](#bayesian-poisson-tensor-factorization-for-learning-paratransit-mobility-patterns)
 - [A Spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow Prediction](#a-spatial-temporal-deep-learning-framework-for-network-wide-bus-passenger-flow-prediction)

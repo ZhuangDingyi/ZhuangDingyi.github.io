@@ -59,3 +59,8 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 * July 9, 2018. I start my research in National University of Singapore under the guidance of Prof. Lee Der-Horng.
 
 * May 16, 2018. A paper was accepted in *The Sixth International Conference on Transportation and Logistics ([6th T-LOG](http://tlog2018.cicts-dmu.com/) )*.
+
+
+## Visitors
+
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=600&t=tt&d=IOfsTsg_5cgvk99-MCQe3awPo4ClF2ymszy36Pzp-sI&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff"></scrip

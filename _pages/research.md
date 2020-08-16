@@ -7,6 +7,7 @@ author_profile: true
 **Research project list**
 
 <!-- TOC -->
+- [Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization](#modeling-paratransit-demand-with-hankel-structured-poisson-tensor-factorization)
 - [Inductive Graph Neural Networks for Spatiotemporal Kriging](#inductive-graph-neural-networks-for-spatiotemporal-kriging)
 - [Reinforcement Learning-based Traffic Signal Control in Special Scenarios](#reinforcement-learning-based-traffic-signal-control-in-special-scenarios)
 - [A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction](#a-general-framework-based-on-temporally-dynamic-adjacency-matrix-for-long-term-traffic-prediction)
@@ -19,12 +20,19 @@ author_profile: true
 <!-- /TOC -->
 
 ------
+## Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization  
+*McGill University, May. 2020 ~ Aug. 2020*  
+*Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
+* Derived and implemented Hankel-based Poisson Tensor Factorization to learn latent seasonal spectrum of paratransit service for the disabled people in the region-level.  
+* Enhanced interpretability traditional probabilistic factorization model, and conducted cases studies on both temporal and spatial latent modes to discover behaviors from sparse and dispersed paratransit data.  
+
 ## Inductive Graph Neural Networks for Spatiotemporal Kriging
-*McGill University, Apr. 2019 ~ Jun. 2020*  
+*McGill University, Apr. 2020 ~ Jun. 2020*  
 *Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
 Co-worker: [Yuankai Wu](https://kaimaoge.github.io/)  
-* Introduced an inductive learning framework based on graph neural network that can perform efficient and transferrable kriging. [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
-* Compare the proposed model with the state-of-the-art kriging and matrix completion models.
+* Developed a dynamic sampling based inductive framework of graph neural network to recover data for unsampled sensors on a network/graph structure. [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
+* Learned the spatial message passing mechanism by generating random subgraph samples and adjacency, then reconstructing signals on them.
+* Implemented and outperformed advanced spatial kriging and matrix completion models on various spatiotemporal datasets to test the inductive ability.
 ![](http://zhuangdingyi.github.io/files/ignnk.png)
 
 ## Reinforcement Learning-based Traffic Signal Control in Special Scenarios

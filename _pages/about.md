@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a M.Eng (thesis) student in Civil Engineering and Applied Mechanics of <u>McGill University</u>. My instructor in McGill is [Prof. Lijun Sun](https://lijunsun.github.io/). I received my Bachelor's degree in Mechanical Engineering of <u>Shanghai Jiao Tong University</u> and was a research student of <u>National University of Singapore</u>. My supervisors in two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi.zhuang@mail.mcgill.ca)](mailto:dingyi.zhuang@mail.mcgill.ca).
+I am a M.Eng (thesis) student in Civil Engineering and Applied Mechanics of <u>McGill University</u>. My instructor in McGill is [Prof. Lijun Sun](https://lijunsun.github.io/). I received my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research student of <u>National University of Singapore</u>. My supervisors in two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi.zhuang@mail.mcgill.ca)](mailto:dingyi.zhuang@mail.mcgill.ca).
 
-My research interests lie in spatial-temporal data mining and urban computing, particularly in applying advanced graph network methods on intelligent transportation system and human mobility modeling to solve urban transportation issues and build a smart city.
+My research interests lie in spatial-temporal data mining and urban computing. Two particular parts are (1) how to adapt advanced graph network methods on transportation system, especially to infer the states/values of unseen nodes in the network (2) how to integrate the interpretability of probabilistic models on mobility modeling to enrich the understanding of urban computing.
 
 **As estimated to graduate in May 2021, I am actively looking for PhD position in 2021 fall. Feel free to contact me at: dingyi.zhuang@mail.mcgill.ca if you are interested in my research!**
 
@@ -17,8 +17,8 @@ My research interests lie in spatial-temporal data mining and urban computing, p
 
 * Urban computing & smart city
 * Graph neural network & complex network 
-* Human mobility and travel behavior
-* Spatio-temporal data mining
+* Spatiotemporal data mining
+* Bayesian probabilistic models
 
 ## Publication
 ### Journal
@@ -36,11 +36,11 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 
 ### Working paper
 * Fuqiang Liu, Jiawei Wang, **Dingyi Zhuang**, Jingbo Tian, Luis Miranda-Moreno, Lijun Sun. (2019) A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction
-* Yuankai Wu, **Dingyi Zhuang**, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging. (2020, Under review) [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
-* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB under review)
+* Yuankai Wu, **Dingyi Zhuang**, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging. (2020, NeurIPS 2020 Under review) [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
+* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2020 under review)
 
 ## News
-* June 2020. A paper titled “Inductive Graph Neural Networks for Spatiotemporal Kriging” has been posted in [arXiv](https://arxiv.org/abs/2006.07527), the opensource code can be found [Github](https://github.com/Kaimaoge/IGNNK).
+* June 2020. A paper titled “Inductive Graph Neural Networks for Spatiotemporal Kriging” has been posted in [arXiv](https://arxiv.org/abs/2006.07527), the open-source code can be found [Github](https://github.com/Kaimaoge/IGNNK).
 
 * October 22, 2019. my paper with Dr. Siyu Hao, *A Pseudo-3D Convolutional Neural Network based Framework for Short-term Mixed Passenger Flow Prediction in Large-scale Public Transit* is accepted for presentation in Transportation Research Board 2020.
 

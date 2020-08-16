@@ -20,10 +20,10 @@ author_profile: true
 <!-- /TOC -->
 
 ------
-## [Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf)
+## Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization
 *McGill University, May. 2020 ~ Aug. 2020*  
 *Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
-* Derived and implemented Hankel-based Poisson Tensor Factorization to learn latent seasonal spectrum of paratransit service for the disabled people in the region-level.  
+* Derived and implemented Hankel-based Poisson Tensor Factorization to learn latent seasonal spectrum of paratransit service for the disabled people in the region-level. [PDF](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf) 
 * Enhanced interpretability traditional probabilistic factorization model, and conducted cases studies on both temporal and spatial latent modes to discover behaviors from sparse and dispersed paratransit data.  
 
 ## Inductive Graph Neural Networks for Spatiotemporal Kriging
@@ -39,7 +39,7 @@ Co-worker: [Yuankai Wu](https://kaimaoge.github.io/)
 *McGill University, Mar. 2020 ~ May 2020*  
 *Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/), [Doina Precup](https://www.cs.mcgill.ca/~dprecup/)  
 Co-worker: [Zhenyuan Ma](https://zhenyuanma.github.io/)  
-* Point out that reinforcement learning traffic signal control should not only focus on regular intersection, but also special scenarios like high-way offramps. [video](https://www.youtube.com/watch?v=wtCUl-WCAj0&feature=youtu.be) [code](https://github.com/ZhuangDingyi/COMP-767-Project)
+* Point out that reinforcement learning traffic signal control should not only focus on regular intersection, but also special scenarios like high-way offramps. [video](https://www.youtube.com/watch?v=wtCUl-WCAj0&feature=youtu.be) [code](https://github.com/ZhuangDingyi/COMP-767-Project) [PDF](https://zhuangdingyi.github.io/files/rl_control.pdf)
 * Both Reinforcement learning efficiency and saftey issues will greatly influenced by scenario changing like simply adding an offramp, which leaves concerns for using reinforcement learning signal control.
 ![](http://zhuangdingyi.github.io/files/comp767.gif)
 
@@ -53,10 +53,10 @@ Co-worker: [Zhenyuan Ma](https://zhenyuanma.github.io/)
 * Geodata visualization with Python and paper writing (In proceeding of KDD'2020).
 ![](http://zhuangdingyi.github.io/files/framework_kdd.png) 
 
-## [Bayesian Poisson Tensor Factorization for Learning Paratransit Mobility Patterns](https://zhuangdingyi.github.io/files/project_cive_648.pdf) 
+## Bayesian Poisson Tensor Factorization for Learning Paratransit Mobility Patterns  
 *McGill University, Oct. 2019 ~ Dec. 2019*  
 *Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
-* Derived and implemented Bayesian Poisson Tensor Factorization to learn latent patterns of paratransit service for the disabled people in the region-level.
+* Derived and implemented Bayesian Poisson Tensor Factorization to learn latent patterns of paratransit service for the disabled people in the region-level. [PDF](https://zhuangdingyi.github.io/files/project_cive_648.pdf) 
 * Discovered multiple peak-time, indifference between weekdays&weekends as temporal patterns and discuss the spatial regularity.
 * Offered a trial on a marginal research field and appealed for more researches of the disabled and how their transit can be improved.
 

@@ -38,7 +38,7 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 
 ### Working paper
 * Yuankai Wu, **Dingyi Zhuang**, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging. (2020, NeurIPS 2020 Under review) [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
-* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2021 under reviewrl_control.pdf) [PDF](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf)
+* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2021 under review) [PDF](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf)
 * **Dingyi Zhuang**, Zhenyuan Ma, Lijun Sun, Reinforcement Learning-based Traffic Signal Control in Special Scenario (2020) [PDF](https://zhuangdingyi.github.io/files/rl_control.pdf)
 * Fuqiang Liu, Jiawei Wang, **Dingyi Zhuang**, Jingbo Tian, Luis Miranda-Moreno, Lijun Sun. A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction (2019).
 

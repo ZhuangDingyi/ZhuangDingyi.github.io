@@ -37,7 +37,7 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 ### Working paper
 * Fuqiang Liu, Jiawei Wang, **Dingyi Zhuang**, Jingbo Tian, Luis Miranda-Moreno, Lijun Sun. (2019) A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction
 * Yuankai Wu, **Dingyi Zhuang**, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging. (2020, NeurIPS 2020 Under review) [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
-* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2020 under review)
+* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2021 under review)
 
 ## News
 * June 2020. A paper titled “Inductive Graph Neural Networks for Spatiotemporal Kriging” has been posted in [arXiv](https://arxiv.org/abs/2006.07527), the open-source code can be found [Github](https://github.com/Kaimaoge/IGNNK).

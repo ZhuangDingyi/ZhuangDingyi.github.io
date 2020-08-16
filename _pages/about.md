@@ -34,12 +34,12 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 ### Conference
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, An empirical study on cycle lane network using bike sharing data: the case of Shanghai, *2018 International Conference on Transportation and Space-time Economics*. **(Presentation)** [PPT](https://zhuangdingyi.github.io/files/2018-08-23-Pre-Bikesharing.pdf)
 
-* Siyu Hao, **Dingyi Zhuang**, De Zhao, Der-Horng Lee, A Pseudo-3D Convolutional Neural Network based Framework for Short-term Mixed Passenger Flow Prediction in Large-scale Public Transit, *Transportation Research Board 2020*. **(Presentation)**
+* Siyu Hao, **Dingyi Zhuang**, De Zhao, Der-Horng Lee, A Pseudo-3D Convolutional Neural Network based Framework for Short-term Mixed Passenger Flow Prediction in Large-scale Public Transit, *Transportation Research Board 2020*. **(Presentation)** [PDF](https://zhuangdingyi.github.io/files/pseudo3d.pdf)
 
 ### Working paper
 * Yuankai Wu, **Dingyi Zhuang**, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging. (2020, NeurIPS 2020 Under review) [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
-* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2021 under review)
-* **Dingyi Zhuang**, Zhenyuan Ma, Lijun Sun, Reinforcement Learning-based Traffic Signal Control in Special Scenario (2020)
+* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2021 under reviewrl_control.pdf) [PDF](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf)
+* **Dingyi Zhuang**, Zhenyuan Ma, Lijun Sun, Reinforcement Learning-based Traffic Signal Control in Special Scenario (2020) [PDF](https://zhuangdingyi.github.io/files/rl_control.pdf)
 * Fuqiang Liu, Jiawei Wang, **Dingyi Zhuang**, Jingbo Tian, Luis Miranda-Moreno, Lijun Sun. A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction (2019).
 
 ## News

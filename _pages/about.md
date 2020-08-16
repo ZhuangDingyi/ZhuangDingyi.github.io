@@ -29,7 +29,7 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, Understanding the bike sharing travel demand and cycle lane network: the case of Shanghai, *International Journal of Sustainable Transportation*. [PDF](https://zhuangdingyi.github.io/files/full-manuscript.pdf) [doi](https://www.tandfonline.com/doi/full/10.1080/15568318.2019.1699209)
 
-* Siyu Hao, **Dingyi Zhuang**, Der-Horng Lee, A spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow prediction. *IET Intelligent Transport Systems* **(Provisionally accepted)**
+* Siyu Hao, **Dingyi Zhuang**, Der-Horng Lee, A spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow prediction. *IET Intelligent Transport Systems* **(Provisionally accepted)** [PDF](https://zhuangdingyi.github.io/files/bus_flow_pred.pdf)
 
 ### Conference
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, An empirical study on cycle lane network using bike sharing data: the case of Shanghai, *2018 International Conference on Transportation and Space-time Economics*. **(Presentation)** [PPT](https://zhuangdingyi.github.io/files/2018-08-23-Pre-Bikesharing.pdf)

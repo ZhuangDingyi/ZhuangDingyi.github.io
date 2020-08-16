@@ -20,7 +20,7 @@ author_profile: true
 <!-- /TOC -->
 
 ------
-## Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization  
+## [Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf)
 *McGill University, May. 2020 ~ Aug. 2020*  
 *Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
 * Derived and implemented Hankel-based Poisson Tensor Factorization to learn latent seasonal spectrum of paratransit service for the disabled people in the region-level.  

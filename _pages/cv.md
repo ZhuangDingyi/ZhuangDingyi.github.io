@@ -10,7 +10,7 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Curriculum Vitae, updated in 2020/06/22](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2020/08/16](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
 
 ## Education
 

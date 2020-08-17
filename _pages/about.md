@@ -20,7 +20,7 @@ I am a M.Eng (thesis) student in Civil Engineering and Applied Mechanics of <u>M
 * Bayesian probabilistic models
 * Reinforcement learning based traffic control
 
-My research interests lie in spatial-temporal data mining and urban computing. Two particular parts are (1) how to adapt advanced graph network methods on transportation system, especially to infer the states/values of unseen nodes in the network (2) how to integrate the interpretability of probabilistic models on mobility modeling to enrich the understanding of urban computing.
+My research interests lie in spatial-temporal data mining and urban computing. Three particular questions are (1) how to adapt advanced graph network methods on transportation system, especially to infer/forecast the states/values of unseen nodes in the network (2) how to utilize interpretability of probabilistic models on mobility modeling (3) how physical traffic flow models can be integrated with (differentiable) deep learning.
 
 ## Publication
 ### Journal

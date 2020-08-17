@@ -17,10 +17,10 @@ I am a M.Eng (thesis) student in Civil Engineering and Applied Mechanics of <u>M
 * Urban computing & smart city
 * Graph neural network & complex network 
 * Spatiotemporal data mining
-* Bayesian probabilistic models
+* Bayesian probabilistic factorization models
 * Reinforcement learning based traffic control
 
-My research interests lie in spatial-temporal data mining and urban computing. Three particular questions are (1) how to adapt advanced graph network methods on transportation system, especially to infer/forecast the states/values of unseen nodes in the network (2) how to utilize interpretability of probabilistic models on mobility modeling (3) how physical traffic flow models can be integrated with (differentiable) deep learning.
+My research interests lie in spatial-temporal data mining and urban computing. Three particular questions are (1) how to adapt advanced graph network methods on transportation system, especially to infer/forecast the states/values of unseen nodes in the network (2) how to utilize interpretability of probabilistic factorization models on mobility modeling (3) how physical traffic flow models can be integrated with (differentiable) deep learning.
 
 ## Publication
 ### Journal

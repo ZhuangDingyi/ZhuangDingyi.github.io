@@ -43,6 +43,8 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 * Fuqiang Liu, Jiawei Wang, **Dingyi Zhuang**, Jingbo Tian, Luis Miranda-Moreno, Lijun Sun. A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction (2019).
 
 ## News
+* Aug 2020. I luckily passed the application of [Mitacs Accelerate](https://www.mitacs.ca/en/programs/accelerate) to be an intern in [ExPretio](http://www.expretio.com/).
+
 * June 2020. A paper titled “Inductive Graph Neural Networks for Spatiotemporal Kriging” has been posted in [arXiv](https://arxiv.org/abs/2006.07527), the open-source code can be found [Github](https://github.com/Kaimaoge/IGNNK).
 
 * October 22, 2019. my paper with Dr. Siyu Hao, *A Pseudo-3D Convolutional Neural Network based Framework for Short-term Mixed Passenger Flow Prediction in Large-scale Public Transit* is accepted for presentation in Transportation Research Board 2020.

@@ -18,7 +18,7 @@ redirect_from:
   Sept. 2019 ~ Now  
   GPA: 3.8/4.0  
   Instructor: [Prof. Lijun Sun](https://lijunsun.github.io/)  
-  Courses: COMP553 Algorithmic Game Theory (B+), CIVE648 Sp Topics in Civil Eng	(A), CIVE540 Urban Transportation Planning (B+), COMP551 Applied Machine Learning (A), COMP767 Reinforcement Learning (A)
+  Courses: COMP553 Algorithmic Game Theory (B+), CIVE648 Sp Topics in Civil Eng	(A), CIVE540 Urban Transportation Planning (A-), COMP551 Applied Machine Learning (A), COMP767 Reinforcement Learning (A)
 
   
 * **B.Eng. in Mechanical Engineering, Shanghai Jiao Tong University**  

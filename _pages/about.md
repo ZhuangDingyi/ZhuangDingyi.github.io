@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a M.Eng (thesis) student in Civil Engineering and Applied Mechanics of <u>McGill University</u>. My supervisor in McGill is [Prof. Lijun Sun](https://lijunsun.github.io/). I received my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research student of <u>National University of Singapore</u>. My supervisors in two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi.zhuang@mail.mcgill.ca)](mailto:dingyi.zhuang@mail.mcgill.ca).
+I am a M.Eng (thesis) student in Civil Engineering and Applied Mechanics at <u>McGill University</u>. My supervisor at McGill is [Prof. Lijun Sun](https://lijunsun.github.io/). I received my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi.zhuang@mail.mcgill.ca)](mailto:dingyi.zhuang@mail.mcgill.ca).
 
 
 **As estimated to graduate in May 2021, I am actively looking for PhD position in 2021 fall. Feel free to contact me at: dingyi.zhuang@mail.mcgill.ca if you are interested in my research!**
@@ -37,8 +37,9 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 * Siyu Hao, **Dingyi Zhuang**, De Zhao, Der-Horng Lee, A Pseudo-3D Convolutional Neural Network based Framework for Short-term Mixed Passenger Flow Prediction in Large-scale Public Transit, *Transportation Research Board 2020*. **(Presentation)** [PDF](https://zhuangdingyi.github.io/files/pseudo3d.pdf)
 
 ### Working paper
-* Yuankai Wu, **Dingyi Zhuang**, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging. (2020, NeurIPS 2020 Under review) [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
-* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020, TRB 2021 under review) [PDF](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf)
+* Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Neural Spatiotemporal Point Process for City-Scale Traffic Accident Modeling. (2020)
+* Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging. (2020, AAAI 2020 Under review) [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
+* **Dingyi Zhuang**, Lijun Sun, Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization (2020) [PDF](https://zhuangdingyi.github.io/files/sparse_demand_estimation.pdf)
 * **Dingyi Zhuang**, Zhenyuan Ma, Lijun Sun, Reinforcement Learning-based Traffic Signal Control in Special Scenario (2020) [PDF](https://zhuangdingyi.github.io/files/rl_control.pdf)
 * Fuqiang Liu, Jiawei Wang, **Dingyi Zhuang**, Jingbo Tian, Luis Miranda-Moreno, Lijun Sun. A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction (2019).
 

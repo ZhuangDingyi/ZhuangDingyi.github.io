@@ -44,7 +44,7 @@ Co-worker: [Yuankai Wu](https://kaimaoge.github.io/)
 * Developed a dynamic sampling based inductive framework of graph neural network to recover data for unsampled sensors on a network/graph structure. [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
 * Learned the spatial message passing mechanism by generating random subgraph samples and adjacency, then reconstructing signals on them.
 * Implemented and outperformed advanced spatial kriging and matrix completion models on various spatiotemporal datasets to test the inductive ability.
-* Paper in the proceeding of *AAAI 2020*.
+* Paper in the proceeding of *AAAI 2021*.
 ![](http://zhuangdingyi.github.io/files/ignnk.png)
 
 ## Reinforcement Learning-based Traffic Signal Control in Special Scenarios

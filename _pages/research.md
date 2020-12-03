@@ -7,6 +7,7 @@ author_profile: true
 **Research project list**
 
 <!-- TOC -->
+- [Neural Spatiotemporal Point Process for City-Scale Traffic Accident Modeling](#neural-spatiotemporal-point-process-for-city-scale-traffic-accident-modeling)
 - [Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization](#modeling-paratransit-demand-with-hankel-structured-poisson-tensor-factorization)
 - [Inductive Graph Neural Networks for Spatiotemporal Kriging](#inductive-graph-neural-networks-for-spatiotemporal-kriging)
 - [Reinforcement Learning-based Traffic Signal Control in Special Scenarios](#reinforcement-learning-based-traffic-signal-control-in-special-scenarios)
@@ -20,6 +21,16 @@ author_profile: true
 <!-- /TOC -->
 
 ------
+## Neural Spatiotemporal Point Process for City-Scale Traffic Accident Modeling
+*McGill University, Sep. 2020 ~ Nov. 2020*  
+*Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
+Co-worker: [Yuankai Wu](https://kaimaoge.github.io/)  
+* Defined the conditional probability functions of accident timing and location as nonlinear functions of the history, whose representation could be effectively learned by sequence-to-sequence networks.
+* Formulated the conditional probabilities of future accident timing and location as log-normal mixture models with parameters conditioned on the historical representation.
+* Experiments on real-world datasets from three cities confirmed NSTPP's capacity to outperform deep learning and conventional point process in accident prediction
+
+![](http://zhuangdingyi.github.io/files/stpp.png)
+
 ## Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization
 *McGill University, May. 2020 ~ Aug. 2020*  
 *Advisor*:  [Prof. Lijun Sun](https://lijunsun.github.io/)  
@@ -33,6 +44,7 @@ Co-worker: [Yuankai Wu](https://kaimaoge.github.io/)
 * Developed a dynamic sampling based inductive framework of graph neural network to recover data for unsampled sensors on a network/graph structure. [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK)
 * Learned the spatial message passing mechanism by generating random subgraph samples and adjacency, then reconstructing signals on them.
 * Implemented and outperformed advanced spatial kriging and matrix completion models on various spatiotemporal datasets to test the inductive ability.
+* Paper in the proceeding of *AAAI 2020*.
 ![](http://zhuangdingyi.github.io/files/ignnk.png)
 
 ## Reinforcement Learning-based Traffic Signal Control in Special Scenarios

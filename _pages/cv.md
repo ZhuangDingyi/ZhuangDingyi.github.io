@@ -10,7 +10,7 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Curriculum Vitae, updated in 2020/08/16](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2020/12/03](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
 
 ## Education
 
@@ -29,7 +29,7 @@ redirect_from:
   GPA: 3.55/4.3 (85.67/100)  Rank: 3/8  
   Supervisor: [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2)
 	
-* **Research student in Civil and Environmental Engineering, National University of Singapore**  
+* **Research assistant in Civil and Environmental Engineering, National University of Singapore**  
   July. 2018 ~ Sept. 2018   
   Supervisor: [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/)
 
@@ -45,7 +45,7 @@ redirect_from:
 * **Freshmen Scholarship**, Shanghai Jiao Tong University. 2015
 
 ## Research experience
-* 2020.8-2020.12, Intern, [Mitacs Accelerate](https://www.mitacs.ca/en/programs/accelerate) with [ExPretio](http://www.expretio.com/)
+* 2020.8-2020.12, Intern, [ExPretio](http://www.expretio.com/), funded by [Mitacs Accelerate](https://www.mitacs.ca/en/programs/accelerate).
 
 * 2018.7-2018.9, research student, [Civil and Environmental Engineering](http://www.eng.nus.edu.sg/cee/) , National University of Singapore
 

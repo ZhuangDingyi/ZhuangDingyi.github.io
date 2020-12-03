@@ -62,7 +62,7 @@ Co-worker: [Zhenyuan Ma](https://zhenyuanma.github.io/)
 
 * Introduced a general framework with Bias Block to improve the performance of seq2seq extreme long-time prediction.
 * Used STGCN, DCRNN and GWNet as base model and chose Matrix Factorization, VAR and SVR as the baseline to prove that our model obtain higher accuracy and stronger interpretability. 
-* Geodata visualization with Python and paper writing (In proceeding of KDD'2020).
+* Geodata visualization with Python and paper writing.
 ![](http://zhuangdingyi.github.io/files/framework_kdd.png) 
 
 ## Bayesian Poisson Tensor Factorization for Learning Paratransit Mobility Patterns  

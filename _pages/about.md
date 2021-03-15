@@ -7,10 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a M.Eng (thesis) student in Civil Engineering and Applied Mechanics at <u>McGill University</u>. My supervisor at McGill is [Prof. Lijun Sun](https://lijunsun.github.io/). I received my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi.zhuang@mail.mcgill.ca)](mailto:dingyi.zhuang@mail.mcgill.ca).
+I wil join [MIT Urban Mobility Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao) in Fall 2021. I am currently a M.Eng (thesis) student in Smart Transport Group at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). I received my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi.zhuang@mail.mcgill.ca)](mailto:dingyi.zhuang@mail.mcgill.ca).
 
-
-**As estimated to graduate in May 2021, I am actively looking for PhD position in 2021 fall. Feel free to contact me at: dingyi.zhuang@mail.mcgill.ca if you are interested in my research!**
 
 ## Research Interests
 
@@ -47,6 +45,8 @@ using smart card data, *Transportation Research Part C: Emerging Technology)*. [
 * Fuqiang Liu, Jiawei Wang, **Dingyi Zhuang**, Jingbo Tian, Luis Miranda-Moreno, Lijun Sun. A General Framework Based on Temporally Dynamic Adjacency Matrix for Long-Term Traffic Prediction (2019).
 
 ## News
+* Mar 8 2021. I was admitted by MIT Interdepartmental Program in Transportation!
+  
 * Our paper “Inductive Graph Neural Networks for Spatiotemporal Kriging” was accepted by *AAAI 2021*! [arXiv](https://arxiv.org/abs/2006.07527) [Github](https://github.com/Kaimaoge/IGNNK)
 
 * Aug 2020. I luckily passed the application of [Mitacs Accelerate](https://www.mitacs.ca/en/programs/accelerate) to be an intern in [ExPretio](http://www.expretio.com/).

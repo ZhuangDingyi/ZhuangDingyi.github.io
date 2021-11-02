@@ -1,0 +1,20 @@
+# main links links
+main:
+  - title: "CV/Bio"
+    url: /cv/
+
+  - title: "Research"
+    url: /research/
+    
+  #- title: "Publications"
+  #  url: /publications/
+
+  - title: "Personal"
+    url: /personal/    
+        
+  - title: "Blogs"
+    url: /year-archive/
+    
+  #- title: "Contact"
+  #  url: /contact/  
+    

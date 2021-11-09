@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhuang Dingyi - Homepage"
 title_separator          : "-"
 name                     : &name "Zhuang Dingyi"
-description              : &description "B.Eng in Mechanical Engineering, Shanghai Jiao Tong University"
+description              : &description "MST, MIT"
 url                      : https://zhuangdingyi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ZhuangDingyi/ZhuangDingyi.github.io"
@@ -79,11 +79,11 @@ analytics:
 author:
   name             : "Zhuang Dingyi"
   avatar           : "zhaungdingyi_formal.jpg"
-  bio              : "M.Eng in Civil Engineering, McGill University"
-  location         : "Montreal, Canada"
+  bio              : "Master in Transportation, MIT"
+  location         : "Cambridge, MA, U.S."
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=8fYfUB0AAAAJ&hl=en"
-  email            : "dingyi.zhuang@mail.mcgill.ca"
+  email            : "dingyi@mit.edu"
   uri              : 
   bitbucket        :
   codepen          :

@@ -82,7 +82,7 @@ author:
   bio              : "Master in Transportation, MIT"
   location         : "Cambridge, MA, U.S."
   employer         : 
-  googlescholar    : "https://scholar.google.com/citations?user=8fYfUB0AAAAJ&hl=en"
+  googlescholar    : &googlescholar "https://scholar.google.com/citations?user=8fYfUB0AAAAJ&hl=en"
   email            : "dingyi@mit.edu"
   uri              : 
   bitbucket        :

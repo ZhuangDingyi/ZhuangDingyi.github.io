@@ -13,9 +13,12 @@ redirect_from:
 [My Curriculum Vitae, updated in 2021/01/07](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
 
 ## Education
+* **Master in Transportation, MIT**  
+  Sept. 2021 ~ Now
+  Instructor: [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao)
 
 * **M.Eng (thesis) in Civil Engineering and Applied Mechanics, McGill University**  
-  Sept. 2019 ~ Now  
+  Sept. 2019 ~ 2021  
   GPA: 3.8/4.0  
   Instructor: [Prof. Lijun Sun](https://lijunsun.github.io/)  
   Courses: COMP553 Algorithmic Game Theory (B+), CIVE648 Sp Topics in Civil Eng	(A), CIVE540 Urban Transportation Planning (A-), COMP551 Applied Machine Learning (A), COMP767 Reinforcement Learning (A)

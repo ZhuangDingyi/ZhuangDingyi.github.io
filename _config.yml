@@ -97,7 +97,7 @@ author:
   instagram        : 
   lastfm           :
   linkedin         : &linkedin "dingyi-zhuang-719841133"
-  orcid            : "https://orcid.org/0000-0003-3208-6016"
+  orcid            : &orcid "https://orcid.org/0000-0003-3208-6016"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -105,7 +105,7 @@ author:
   tumblr           :
   twitter          : #&twitter "zdy_bert"
   vine             :
-  weibo            :
+  weibo            : 
   xing             :
   youtube          :
   wikipedia        :

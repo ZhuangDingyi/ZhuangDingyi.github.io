@@ -88,13 +88,13 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : &flickr "people/184583888@N05/"
+  flickr           : #&flickr "people/184583888@N05/"
   facebook         : #&facebook "Zhuang Dingyi"
   foursquare       :
   github           : "ZhuangDingyi"
   google_plus      :
   keybase          :
-  instagram        : 
+  instagram        : &instagram "dingyi.zhuang97"
   lastfm           :
   linkedin         : &linkedin "dingyi-zhuang-719841133"
   orcid            : &orcid "https://orcid.org/0000-0003-3208-6016"

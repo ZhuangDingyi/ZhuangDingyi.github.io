@@ -10,7 +10,7 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Curriculum Vitae, updated in 2021/01/07](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2022/05/23](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
 
 ## Education
 * **Master in Transportation, MIT**  

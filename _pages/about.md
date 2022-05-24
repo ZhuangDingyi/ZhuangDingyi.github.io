@@ -22,12 +22,14 @@ My research interests lie in spatial-temporal data mining and urban computing. T
 
 ## Publication
 ### Journal
-* **Dingyi Zhuang**, Siyu Hao, Lee Der-Horng, Jiangang Jin, From compound word to metropolitan station: Semantic similarity analysis
-using smart card data, *Transportation Research Part C: Emerging Technology)*. [PPT](https://zhuangdingyi.github.io/files/Final_report_prof_lee.pdf) [doi](https://doi.org/10.1016/j.trc.2020.02.017) [code](https://github.com/ZhuangDingyi/From-Compound-Word-to-Metro-Stations)
+* **Dingyi Zhuang**, Siyu Hao, Lee Der-Horng, Jiangang Jin, "From compound word to metropolitan station: Semantic similarity analysis
+using smart card data", *Transportation Research Part C: Emerging Technology)*. [PPT](https://zhuangdingyi.github.io/files/Final_report_prof_lee.pdf) [doi](https://doi.org/10.1016/j.trc.2020.02.017) [code](https://github.com/ZhuangDingyi/From-Compound-Word-to-Metro-Stations)
 
-* **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, Understanding the bike sharing travel demand and cycle lane network: the case of Shanghai, *International Journal of Sustainable Transportation*. [PDF](https://zhuangdingyi.github.io/files/full-manuscript.pdf) [doi](https://www.tandfonline.com/doi/full/10.1080/15568318.2019.1699209)
+* **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, "Understanding the bike sharing travel demand and cycle lane network: the case of Shanghai", *International Journal of Sustainable Transportation*. [PDF](https://zhuangdingyi.github.io/files/full-manuscript.pdf) [doi](https://www.tandfonline.com/doi/full/10.1080/15568318.2019.1699209)
 
-* Siyu Hao, **Dingyi Zhuang**, Der-Horng Lee, A spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow prediction. *IET Intelligent Transport Systems* **(Provisionally accepted)** [PDF](https://zhuangdingyi.github.io/files/bus_flow_pred.pdf)
+<!-- * Siyu Hao, **Dingyi Zhuang**, Der-Horng Lee, A spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow prediction. *IET Intelligent Transport Systems* **(Provisionally accepted)** [PDF](https://zhuangdingyi.github.io/files/bus_flow_pred.pdf) -->
+
+* Fuqiang Liu, Jiawei Wang, Jingbo Tian, **Dingyi Zhuang**, Luis Miranda-Moreno, and Lijun Sun. "A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting." IEEE Transactions on Intelligent Transportation Systems [doi](https://doi.org/10.1109/TITS.2022.3157129).
 
 ### Conference
 

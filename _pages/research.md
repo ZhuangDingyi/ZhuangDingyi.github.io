@@ -1,10 +1,11 @@
 ---
 <!-- layout: archive -->
-title: "Research"
+title: "Research Projects"
 permalink: /research/
 author_profile: true
 ---
-**Research project list**
+
+
 
 <!-- TOC -->
 - [Neural Spatiotemporal Point Process for City-Scale Traffic Accident Modeling](#neural-spatiotemporal-point-process-for-city-scale-traffic-accident-modeling)

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zhuang Dingyi - Homepage"
+title                    : "Dingyi Zhuang - Homepage"
 title_separator          : "-"
 name                     : &name "Zhuang Dingyi"
 description              : &description "MST, MIT"
@@ -77,12 +77,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhuang Dingyi"
+  name             : "Dingyi Zhuang"
   avatar           : "zhaungdingyi_formal.jpg"
-  bio              : "Master in Transportation, MIT"
+  bio              : "Master in Transportation @ MIT"
   location         : "Cambridge, MA, U.S."
   employer         : 
-  googlescholar    : &googlescholar "https://scholar.google.com/citations?user=8fYfUB0AAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=8fYfUB0AAAAJ&hl=en"
   email            : "dingyi@mit.edu"
   uri              : 
   bitbucket        :
@@ -100,7 +100,7 @@ author:
   orcid            : &orcid "https://orcid.org/0000-0003-3208-6016"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : #&twitter "zdy_bert"
@@ -109,7 +109,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  zhihu            : "https://www.zhihu.com/people/ai-ding-bao-de-ding-ding"
+  zhihu            : &zhihu "/people/dingyizhuang"
 
 
 # Reading Files
@@ -305,3 +305,44 @@ compress_html:
     envs: development
 
 theme: jekyll-theme-merlot
+
+
+# -----------------------------------------------------------------------------
+# Responsive WebP Images
+# -----------------------------------------------------------------------------
+
+imagemagick:
+  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-resize 800x"
+    
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics:    false  # enables google analytics
+enable_panelbear_analytics: false  # enables panelbear analytics
+enable_google_verification: false  # enables google site verification
+enable_bing_verification:   false  # enables bing site verification
+enable_masonry:             true   # enables automatic project cards arangement
+enable_math:                true   # enables math typesetting (uses MathJax)
+enable_tooltips:            false  # enables automatic tooltip links generated
+                                   # for each section titles on pages and posts
+enable_darkmode:            true   # enables switching between light/dark modes
+enable_navbar_social:       false  # enables displaying social links in the
+                                   # navbar on the about page
+enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
+enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position

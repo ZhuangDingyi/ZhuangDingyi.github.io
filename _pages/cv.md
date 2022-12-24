@@ -1,6 +1,6 @@
 ---
 <!-- layout: archive -->
-title: "Zhuang Dingyi (庄丁奕)"
+title: "Dingyi Zhuang (庄丁奕)"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,12 +10,14 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Curriculum Vitae, updated in 2022/05/23](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2022/12/24](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
 
 ## Education
 * **Master in Transportation, MIT**  
-  Sept. 2021 ~ Now
-  Instructor: [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao)
+  Sept. 2021 ~ Now  
+  GPA: 5.0/5.0  
+  Instructor: [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao)  
+  Courses: 1.200 Transportation Fundation and Methods (A+), 1.205 Advanced Demand Modeling (A+), 6.336 Intro to Modeling & Simulation (A), 15.072 Advanced Analytics Edge (A), 1.202 Demand Modeling, 6.268 Network Science and Models
 
 * **M.Eng (thesis) in Civil Engineering and Applied Mechanics, McGill University**  
   Sept. 2019 ~ 2021  
@@ -47,7 +49,10 @@ redirect_from:
 * **Excellent Student** (5%), Shanghai Jiao Tong University. 2016
 * **Freshmen Scholarship**, Shanghai Jiao Tong University. 2015
 
-## Research experience
+## Work experience
+
+* 2022.6-2022.8, Research Intern, [Chicago Transit Authority](https://www.transitchicago.com/)  
+
 * 2020.8-2020.12, Intern, [ExPretio](http://www.expretio.com/), funded by [Mitacs Accelerate](https://www.mitacs.ca/en/programs/accelerate).
 
 * 2018.7-2018.9, research student, [Civil and Environmental Engineering](http://www.eng.nus.edu.sg/cee/) , National University of Singapore

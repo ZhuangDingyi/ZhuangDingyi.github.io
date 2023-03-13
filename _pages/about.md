@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a second-year MST student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu).
+I am a second-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu).
 
 
 ## Research Interests
@@ -22,12 +22,14 @@ My research interests lie in spatial-temporal data mining and urban computing. T
 
 ## Publication
 ### Journal
-* Fuqiang Liu, Jiawei Wang, Jingbo Tian, **Dingyi Zhuang**, Luis Miranda-Moreno, and Lijun Sun. "A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting." IEEE Transactions on Intelligent Transportation Systems [doi](https://doi.org/10.1109/TITS.2022.3157129) [description](../Projects/general_framework/) 
+* Fuqiang Liu, Jiawei Wang, Jingbo Tian, **Dingyi Zhuang**, Luis Miranda-Moreno, and Lijun Sun. "A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting." *IEEE Transactions on Intelligent Transportation Systems* [doi](https://doi.org/10.1109/TITS.2022.3157129) [description](../Projects/general_framework/) 
 
 * **Dingyi Zhuang**, Siyu Hao, Lee Der-Horng, Jiangang Jin, "From compound word to metropolitan station: Semantic similarity analysis
-using smart card data", *Transportation Research Part C: Emerging Technology)*. [PPT](https://zhuangdingyi.github.io/files/Final_report_prof_lee.pdf) [doi](https://doi.org/10.1016/j.trc.2020.02.017) [code](https://github.com/ZhuangDingyi/From-Compound-Word-to-Metro-Stations) [description](../Projects/stns/) 
+using smart card data", *Transportation Research Part C: Emerging Technology*. [PPT](https://zhuangdingyi.github.io/files/Final_report_prof_lee.pdf) [doi](https://doi.org/10.1016/j.trc.2020.02.017) [code](https://github.com/ZhuangDingyi/From-Compound-Word-to-Metro-Stations) [description](../Projects/stns/) 
 
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, "Understanding the bike sharing travel demand and cycle lane network: the case of Shanghai", *International Journal of Sustainable Transportation*. [PDF](https://zhuangdingyi.github.io/files/full-manuscript.pdf) [doi](https://www.tandfonline.com/doi/full/10.1080/15568318.2019.1699209) [description](../Projects/bikesharing/)
+
+* Qingyi Wang, Shenhao Wang, **Dingyi Zhuang**, Haris Koutsopoulos, Jinhua Zhao, "Uncertainty Quantification of Spatiotemporal Travel Demand with Probabilistic Graph Neural Networks", in submission to *I*EEE Transactions on Intelligent Transportation Systems*. [arixiv](https://arxiv.org/abs/2303.04040) 
 
 <!-- * Siyu Hao, **Dingyi Zhuang**, Der-Horng Lee, A spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow prediction. *IET Intelligent Transport Systems* **(Provisionally accepted)** [PDF](https://zhuangdingyi.github.io/files/bus_flow_pred.pdf) -->
 

@@ -22,6 +22,8 @@ My research interests lie in spatial-temporal data mining and urban computing. T
 
 ## Publication
 ### Journal
+* Xudong Wang, Yuankai Wu, **Dingyi Zhuang**, Lijun Sun. "Low-Rank Hankel Tensor Completion for Traffic Speed Estimation." *IEEE Transactions on Intelligent Transportation Systems* [doi](https://ieeexplore.ieee.org/abstract/document/10058108) 
+
 * Fuqiang Liu, Jiawei Wang, Jingbo Tian, **Dingyi Zhuang**, Luis Miranda-Moreno, and Lijun Sun. "A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting." *IEEE Transactions on Intelligent Transportation Systems* [doi](https://doi.org/10.1109/TITS.2022.3157129) [description](../Projects/general_framework/) 
 
 * **Dingyi Zhuang**, Siyu Hao, Lee Der-Horng, Jiangang Jin, "From compound word to metropolitan station: Semantic similarity analysis

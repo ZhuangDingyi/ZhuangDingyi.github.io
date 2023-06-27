@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a second-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu).
+I am a second-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](../files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu).
 
 
 ## Research Interests
@@ -18,7 +18,10 @@ I am a second-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.e
 * Bayesian probabilistic factorization models
 * Reinforcement learning based traffic control
 
-My research interests lie in spatial-temporal data mining and urban computing. Three particular questions are (1) how to adapt advanced graph network methods on transportation system, especially to infer/forecast the states/values of unseen nodes in the network (2) how to utilize interpretability of probabilistic factorization models on mobility modeling (3) how physical traffic flow models can be integrated with (differentiable) deep learning.
+My research interests lie in spatial-temporal data mining and urban computing. Three particular questions are 
+1. How to adapt advanced graph network methods on transportation system, especially to infer/forecast the states/values of unseen nodes in the network 
+2. How to utilize interpretability of probabilistic factorization models on mobility modeling 
+3. How physical traffic flow models can be integrated with (differentiable) deep learning.
 
 ## Publication
 ### Journal
@@ -31,7 +34,9 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, "Understanding the bike sharing travel demand and cycle lane network: the case of Shanghai", *International Journal of Sustainable Transportation*. [PDF](https://zhuangdingyi.github.io/files/full-manuscript.pdf) [doi](https://www.tandfonline.com/doi/full/10.1080/15568318.2019.1699209) [description](../Projects/bikesharing/)
 
-* Qingyi Wang, Shenhao Wang, **Dingyi Zhuang**, Haris Koutsopoulos, Jinhua Zhao, "Uncertainty Quantification of Spatiotemporal Travel Demand with Probabilistic Graph Neural Networks", in submission to *I*EEE Transactions on Intelligent Transportation Systems*. [arixiv](https://arxiv.org/abs/2303.04040) 
+* Qingyi Wang, Shenhao Wang, **Dingyi Zhuang**, Haris Koutsopoulos, Jinhua Zhao, "Uncertainty Quantification of Spatiotemporal Travel Demand with Probabilistic Graph Neural Networks", in submission to *IEEE Transactions on Intelligent Transportation Systems*. [arixiv](https://arxiv.org/abs/2303.04040) 
+
+* Yunhan Zheng, Qingyi Wang, **Dingyi Zhuang**, Shenhao Wang, Jinhua Zhao, "Fairness-enhancing deep learning for ride-hailing demand prediction", in submission to *Transportation Research Part C: Emerging Technologies*. [arixiv](https://arxiv.org/abs/2303.05698) 
 
 <!-- * Siyu Hao, **Dingyi Zhuang**, Der-Horng Lee, A spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow prediction. *IET Intelligent Transport Systems* **(Provisionally accepted)** [PDF](https://zhuangdingyi.github.io/files/bus_flow_pred.pdf) -->
 
@@ -39,13 +44,15 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 ### Conference
 
-* **Dingyi Zhuang**, Shenhao Wang, Haris Koutsopoulos, Jinhua Zhao, *The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2022)*. **(In proceeding)** [code](https://github.com/ZhuangDingyi/STZINB) [doi](https://doi.org/10.1145/3534678.3539093) [description](../Projects/STZINB/)    
+* Xiaowei Gao, James Haworth, **Dingyi Zhuang**, Huanfa Chen, Xinke Jiang, *12th International Conference on Geographic Information Science (GIScience-2023)*. **(In proceeding)** 
+
+* **Dingyi Zhuang**, Shenhao Wang, Haris Koutsopoulos, Jinhua Zhao, *The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2022)*. **(Oral presentation)** [code](https://github.com/ZhuangDingyi/STZINB) [doi](https://doi.org/10.1145/3534678.3539093) [description](../Projects/STZINB/)    
 
 * **Dingyi Zhuang**, Yuzhu Huang, Vindula Jayawardana, Jinhua Zhao, Dajiang Suo, Cathy Wu, *IEEE 25th International Conference on Intelligent Transportation Systems (ITSC 2022)*. **(In proceeding)** [arXiv](https://arxiv.org/pdf/2203.03726.pdf) [description](../Projects/braess/)
 
-* Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging, *Association for the Advancement of Artificial Intelligence 2021 (AAAI 2021)*. **(In proceeding)** [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK) [description](../Projects/IGNNK/)
+* Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging, *Association for the Advancement of Artificial Intelligence 2021 (AAAI 2021)*. **(Oral presentation)** [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK) [description](../Projects/IGNNK/)
 
-* **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, An empirical study on cycle lane network using bike sharing data: the case of Shanghai, *2018 International Conference on Transportation and Space-time Economics*. **(Presentation)** [PPT](https://zhuangdingyi.github.io/files/2018-08-23-Pre-Bikesharing.pdf)
+* **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, An empirical study on cycle lane network using bike sharing data: the case of Shanghai, *2018 International Conference on Transportation and Space-time Economics*. **(Oral presentation)** [PPT](https://zhuangdingyi.github.io/files/2018-08-23-Pre-Bikesharing.pdf)
 
 * Siyu Hao, **Dingyi Zhuang**, De Zhao, Der-Horng Lee, A Pseudo-3D Convolutional Neural Network based Framework for Short-term Mixed Passenger Flow Prediction in Large-scale Public Transit, *Transportation Research Board 2020*. **(Presentation)** [PDF](https://zhuangdingyi.github.io/files/pseudo3d.pdf)
 
@@ -135,7 +142,7 @@ Selected projects:
     </li>
   </ul>
 
-## News Archive
+<!-- ## News Archive
 * June 6 2022. I started my internship in Chicago Transit Authority
 
 * Mar 8 2021. I was admitted by MIT Interdepartmental Program in Transportation!
@@ -162,4 +169,4 @@ Selected projects:
 
 * July 9, 2018. I start my research in National University of Singapore under the guidance of Prof. Lee Der-Horng.
 
-* May 16, 2018. A paper was accepted in *The Sixth International Conference on Transportation and Logistics ([6th T-LOG](http://tlog2018.cicts-dmu.com/) )*.
+* May 16, 2018. A paper was accepted in *The Sixth International Conference on Transportation and Logistics ([6th T-LOG](http://tlog2018.cicts-dmu.com/) )*. -->

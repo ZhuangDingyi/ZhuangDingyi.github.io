@@ -10,10 +10,10 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Curriculum Vitae, updated in 2022/12/24](http://zhuangdingyi.github.io/files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2023/6/27](../files/zhuang_dingyi_cv.pdf)
 
 ## Education
-* **Master in Transportation, MIT**  
+* **Ph.D. in Transportation, MIT**  
   Sept. 2021 ~ Now  
   GPA: 5.0/5.0  
   Instructor: [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao)  
@@ -48,6 +48,9 @@ redirect_from:
 * **Honorable Mention**, 2017 Mathematical Contest in Modeling. 2017
 * **Excellent Student** (5%), Shanghai Jiao Tong University. 2016
 * **Freshmen Scholarship**, Shanghai Jiao Tong University. 2015
+
+## Teaching experience
+* Teaching Assistant, [1.041/1.200 Transportation Foundation and Methodology](https://web.mit.edu/1.041/www/), Lectured by [Prof. Cathy Wu](http://www.wucathy.com/blog/), Spring 2023, MIT
 
 ## Work experience
 

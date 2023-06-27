@@ -16,10 +16,11 @@ author_profile: true
 
 <ul>
 <li><a href="#dm">Spatial-temporal Data Mining</a></li>
+<li><a href="#uq">Uncertainty Quantification</a></li>
 <li><a href="#dp">Traffic Prediction</a></li>
 <li><a href="#st-kriging">Spatial-temporal Kriging</a></li>
 <li><a href="#rl">Control and Reinforcement Learning</a></li>
-<li><a href="#st-kriging">Policy</a></li>
+<li><a href="#policy">Policy</a></li>
 </ul>
 
 **Click figures or titles to see details** :sunglasses:
@@ -45,7 +46,7 @@ author_profile: true
   </ul>
 
 <section>
-<h2 id="dm">Traffic Prediction</h2>
+<h2 id="uq">Uncertainty Quantification</h2>
 <br> 
   <ul class="image-list-small">
     <li>
@@ -56,10 +57,45 @@ author_profile: true
       </div>
     </li>
     <li>
+      <a href="../Projects/uq_mv/" style="background-image: url('../files/uq_mv.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/uq_mv">Uncertainty Quantification of Spatiotemporal Travel Demand with Probabilistic Graph Neural Networks</a></h3>
+        <p class="image-author">Sep. 2021 ~ May. 2023 @ MIT</p>
+      </div>
+    </li>
+    <li>
+      <a href="../Projects/stgin/" style="background-image: url('../files/stgin.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/stgin">ST-GIN: An Uncertainty Quantification Approach in Traffic Data Imputation</a></h3>
+        <p class="image-author">Mar. 2023 ~ May. 2023 @ MIT</p>
+      </div>
+    </li>
+    <li>
+      <a href="../Projects/giscience2023/" style="background-image: url('../files/giscience2023.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/giscience2023">Uncertainty Quantification in the Road-level Traffic Risk Prediction by STZINB-GNN</a></h3>
+        <p class="image-author">Mar. 2023 ~ June. 2023 @ MIT</p>
+      </div>
+    </li>
+
+  </ul>
+
+<section>
+<h2 id="dm">Traffic Prediction</h2>
+<br> 
+  <ul class="image-list-small">
+    <li>
       <a href="../Projects/general_framework/" style="background-image: url('../files/framework_kdd.png');"></a>
       <div class="details">
         <h3><a href="../Projects/general_framework/">A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting</a></h3>
         <p class="image-author">Dec. 2019 ~ Feb. 2020 @ McGill</p>
+      </div>
+    </li>
+    <li>
+      <a href="../Projects/fairness/" style="background-image: url('../files/fairness.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/fairness/">Fairness-enhancing deep learning for ride-hailing demand prediction</a></h3>
+        <p class="image-author">Sep. 2021 ~ May. 2023 @ MIT</p>
       </div>
     </li>
   </ul>
@@ -113,7 +149,7 @@ author_profile: true
   </ul>
 
 <section>
-<h2 id=rl>Policy</h2>
+<h2 id=policy>Policy</h2>
 <br>
 <ul class="image-list-small">
     <li>

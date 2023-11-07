@@ -7,21 +7,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a second-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](../files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu).
+I am a third-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](../files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu) and schedule a 30-min short talk.
 
 
 ## Research Interests
 
 * Urban computing & smart city
-* Graph neural network & complex network 
+* Graph neural network
+* Time Series
 * Spatiotemporal data mining
+* Network science
 * Bayesian probabilistic factorization models
-* Reinforcement learning based traffic control
 
-My research interests lie in spatial-temporal data mining and urban computing. Three particular questions are 
-1. How to adapt advanced graph network methods on transportation system, especially to infer/forecast the states/values of unseen nodes in the network 
-2. How to utilize interpretability of probabilistic factorization models on mobility modeling 
-3. How physical traffic flow models can be integrated with (differentiable) deep learning.
+Four particular questions I try to study and connect together:
+1. **Spatiotemporal data mining**: imputation, forecasting, kriging, and dynamic kriging. Particularly applying Graph Neural Networks.
+2. **Uncertainty quantification**: forecasting with prediction intervals (Baysian or Frequentist ways) and ensuring reliable prediction intervals
+3. **Unstructured data integration and interpretation**: images, virtual & physical networks, textual data
+4. **Equity and social consideration**: mitigating biases (e.g. fariness) in deep learning and AI for humand development
 
 ## Publication
 ### Journal
@@ -43,12 +45,15 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 
 ### Conference
+* **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop*
 
-* Xiaowei Gao, James Haworth, **Dingyi Zhuang**, Huanfa Chen, Xinke Jiang, *12th International Conference on Geographic Information Science (GIScience-2023)*. **(In proceeding)** 
+* Xinke Jiang*, **Dingyi Zhuang**, Xianghui Zhang, Hao Chen, Jiayuan Luo, Xiaowei Gao, Uncertainty Quantification via Spatial-Temporal Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction, *CIKM 2023*. **(In proceeding)** 
 
-* **Dingyi Zhuang**, Shenhao Wang, Haris Koutsopoulos, Jinhua Zhao, *The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2022)*. **(Oral presentation)** [code](https://github.com/ZhuangDingyi/STZINB) [doi](https://doi.org/10.1145/3534678.3539093) [description](../Projects/STZINB/)    
+* Xiaowei Gao, James Haworth, **Dingyi Zhuang**, Huanfa Chen, Xinke Jiang, Uncertainty Quantification in Road-level Traffic Risk Prediction by Spatial-Temporal Zero-Inflated Negative Binomial Graph Neural Network, *12th International Conference on Geographic Information Science (GIScience-2023)*. **(In proceeding)** 
 
-* **Dingyi Zhuang**, Yuzhu Huang, Vindula Jayawardana, Jinhua Zhao, Dajiang Suo, Cathy Wu, *IEEE 25th International Conference on Intelligent Transportation Systems (ITSC 2022)*. **(In proceeding)** [arXiv](https://arxiv.org/pdf/2203.03726.pdf) [description](../Projects/braess/)
+* **Dingyi Zhuang**, Shenhao Wang, Haris Koutsopoulos, Jinhua Zhao, Uncertainty Quantification of Sparse Trip Demand Prediction with Spatial-Temporal Graph Neural Networks, *The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2022)*. **(Oral presentation)** [code](https://github.com/ZhuangDingyi/STZINB) [doi](https://doi.org/10.1145/3534678.3539093) [description](../Projects/STZINB/)    
+
+* **Dingyi Zhuang**, Yuzhu Huang, Vindula Jayawardana, Jinhua Zhao, Dajiang Suo, Cathy Wu, The Braess Paradox in Dynamic Traffic, *IEEE 25th International Conference on Intelligent Transportation Systems (ITSC 2022)*. **(In proceeding)** [arXiv](https://arxiv.org/pdf/2203.03726.pdf) [description](../Projects/braess/)
 
 * Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging, *Association for the Advancement of Artificial Intelligence 2021 (AAAI 2021)*. **(Oral presentation)** [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK) [description](../Projects/IGNNK/)
 

@@ -4,12 +4,32 @@ title: "Personal"
 permalink: /personal/
 author_profile: true
 ---
-<img src="https://zhuangdingyi.github.io/images/zhuangdingyi_lafountain.jpg" />
+<img src="../files/dingyi_london.jpg"/>
 
-## Activities
-<img src="https://zhuangdingyi.github.io/files/coqd.png" style="width: 100px;float: right;"/>  
+## After-school activities
+<img src="../files/jtl_logo.png" style="width: 100px;float: left;"/>  
 
-**Vice president**, Center of Quality Development (2015.10-2017.9) 
+<br/>
+
+**President of Student Advisory Team**, [MIT JTL Urban Mobility Lab](https://mobility.mit.edu/)
+<br/>
+<br/>
+
+
+
+<img src="../files/fma_logo.jpeg" style="width: 100px;float: left;"/>  
+<br/>
+
+**Vice president of publicity**, [MIT Film Makers Association](https://filmmakers.mit.edu/)
+<br/>
+<br/>
+
+
+
+<img src="../files/coqd.png" style="width: 100px;float: left;"/>  
+<br/>
+
+**Vice president**, Center of Quality Development at Shanghai Jiao Tong University 
 
 I have spent much time in student's affairs, especially hosting scholarship ceremonies and anniversaries of college, photographing and filming. Here are selected activities:
 
@@ -18,7 +38,6 @@ I have spent much time in student's affairs, especially hosting scholarship cere
 	* [A Bite of SJTU](https://v.youku.com/v_show/id_XMTY5NjkzMTE2NA==.html?spm=a2h0k.11417342.soresults.dtitle)  
 	* [Our Love Story: A Disguised Introduction of Course Choosing](https://www.bilibili.com/video/av5993224/)  
 	* [Fighting! My Dragon Soul](https://v.youku.com/v_show/id_XMTY5ODI5NjA2MA==.html?spm=a2h0k.11417342.soresults.dtitle)  
-* I have posted nearly 10 press releases and photography works in our school's website.
 
 ## Volunteer
 * Dongchuan Road Subway Station (2018.5)
@@ -37,3 +56,4 @@ I have spent much time in student's affairs, especially hosting scholarship cere
 
 * Guitar player
 
+* Strategic gameplays

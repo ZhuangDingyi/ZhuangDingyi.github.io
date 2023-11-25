@@ -10,7 +10,7 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Curriculum Vitae, updated in 2023/6/27](../files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2023/11/23](../files/zhuang_dingyi_cv.pdf)
 
 ## Education
 * **Ph.D. in Transportation, MIT**  

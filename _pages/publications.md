@@ -17,18 +17,18 @@ author_profile: true
 <ul>
 <li><a href="#dm">Spatial-temporal Data Mining</a></li>
 <li><a href="#uq">Uncertainty Quantification</a></li>
-<li><a href="#dp">Traffic Prediction</a></li>
-<li><a href="#st-kriging">Spatial-temporal Kriging</a></li>
+<!-- <li><a href="#dp">Traffic Prediction</a></li> -->
+<li><a href="#st-kriging">Spatial-temporal Kriging (Master Thesis)</a></li>
 <li><a href="#rl">Control and Reinforcement Learning</a></li>
-<li><a href="#policy">Policy</a></li>
+<li><a href="#policy">Equity and Social Consideration</a></li>
 </ul>
 
-**Click figures or titles to see details** :sunglasses:
+**Click figures or titles to see details**
 
 <section>
 <h2 id="dm">Spatial-temporal Data Mining</h2>
 <br> 
-  <ul class="image-list-small">
+  <ul class="image-list-small">    
     <li>
       <a href="../Projects/NSTPP/" style="background-image: url('../files/stpp.png');"></a>
       <div class="details">
@@ -43,6 +43,13 @@ author_profile: true
         <p class="image-author">May. 2020 ~ Aug. 2020 @ McGill</p>
       </div>
     </li>
+    <li>
+      <a href="../Projects/general_framework/" style="background-image: url('../files/framework_kdd.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/general_framework/">A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting</a></h3>
+        <p class="image-author">Dec. 2019 ~ Feb. 2020 @ McGill</p>
+      </div>
+    </li>
   </ul>
 
 <section>
@@ -50,10 +57,10 @@ author_profile: true
 <br> 
   <ul class="image-list-small">
     <li>
-      <a href="../Projects/STZINB/" style="background-image: url('../files/stzinb.png');"></a>
+      <a href="../Projects/uq_cikm/" style="background-image: url('../files/STTD.png');"></a>
       <div class="details">
-        <h3><a href="../Projects/STZINB">Uncertainty Quantification of Sparse Travel Demand Prediction with Spatial-Temporal Graph Neural Networks</a></h3>
-        <p class="image-author">Jun. 2021 ~ Feb. 2022 @ MIT</p>
+        <h3><a href="../Projects/uq_cikm">Uncertainty Quantification via Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction</a></h3>
+        <p class="image-author">Mar. 2023 ~ Aug. 2023 @ MIT</p>
       </div>
     </li>
     <li>
@@ -61,6 +68,13 @@ author_profile: true
       <div class="details">
         <h3><a href="../Projects/uq_mv">Uncertainty Quantification of Spatiotemporal Travel Demand with Probabilistic Graph Neural Networks</a></h3>
         <p class="image-author">Sep. 2021 ~ May. 2023 @ MIT</p>
+      </div>
+    </li>
+     <li>
+      <a href="../Projects/STZINB/" style="background-image: url('../files/stzinb.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/STZINB">Uncertainty Quantification of Sparse Travel Demand Prediction with Spatial-Temporal Graph Neural Networks</a></h3>
+        <p class="image-author">Jun. 2021 ~ Feb. 2022 @ MIT</p>
       </div>
     </li>
     <li>
@@ -79,27 +93,6 @@ author_profile: true
     </li>
 
   </ul>
-
-<section>
-<h2 id="dm">Traffic Prediction</h2>
-<br> 
-  <ul class="image-list-small">
-    <li>
-      <a href="../Projects/general_framework/" style="background-image: url('../files/framework_kdd.png');"></a>
-      <div class="details">
-        <h3><a href="../Projects/general_framework/">A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting</a></h3>
-        <p class="image-author">Dec. 2019 ~ Feb. 2020 @ McGill</p>
-      </div>
-    </li>
-    <li>
-      <a href="../Projects/fairness/" style="background-image: url('../files/fairness.png');"></a>
-      <div class="details">
-        <h3><a href="../Projects/fairness/">Fairness-enhancing deep learning for ride-hailing demand prediction</a></h3>
-        <p class="image-author">Sep. 2021 ~ May. 2023 @ MIT</p>
-      </div>
-    </li>
-  </ul>
-
 
 <section>
 <h2 id="st-kriging">Spatial-temporal Kriging (Master Thesis)</h2>
@@ -149,14 +142,21 @@ author_profile: true
   </ul>
 
 <section>
-<h2 id=policy>Policy</h2>
+<h2 id=policy>Equity and Social Consideration</h2>
 <br>
-<ul class="image-list-small">
+<ul class="image-list-small">    
     <li>
       <a href="../Projects/cta_incident/" style="background-image: url('../files/cta_incident.png');"></a>
       <div class="details">
         <h3><a href="../Projects/cta_incident/">Understanding Incident Impacts on Ridership Demand Change in Urban Transit System: the Case in Chicago</a></h3>
         <p class="image-author">Sep. 2021 ~ Aug. 2022 @ MIT</p>
+      </div>
+    </li>
+    <li>
+      <a href="../Projects/fairness/" style="background-image: url('../files/fairness.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/fairness/">Fairness-enhancing deep learning for ride-hailing demand prediction</a></h3>
+        <p class="image-author">Sep. 2021 ~ May. 2023 @ MIT</p>
       </div>
     </li>
     <li>

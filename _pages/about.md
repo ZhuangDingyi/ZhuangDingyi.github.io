@@ -7,17 +7,22 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a third-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](../files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu) and schedule a 30-min short talk.
+I am a fourth-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](../files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. 
+
+I am working at [Morgan Stanely Machine Learning team](https://www.morganstanley.com/about-us/technology/machine-learning-research-team) as a Research Associate.
+
+If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu) and schedule a 30-min short talk.
 
 
 ## Research Interests
 
-* Urban computing & smart city
-* Graph neural network
-* Time Series
+* Urban computing
 * Spatiotemporal data mining
-* Network science
-* Bayesian probabilistic factorization models
+* Graph neural network
+* Time series
+* Travel behavior analysis
+* Reinforcement learning
+* Trustworthy AI
 
 Four particular questions I try to study and connect together:
 1. **Spatiotemporal data mining**: imputation, forecasting, kriging, and dynamic kriging. Particularly applying Graph Neural Networks.
@@ -36,16 +41,16 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, "Understanding the bike sharing travel demand and cycle lane network: the case of Shanghai", *International Journal of Sustainable Transportation*. [PDF](https://zhuangdingyi.github.io/files/full-manuscript.pdf) [doi](https://www.tandfonline.com/doi/full/10.1080/15568318.2019.1699209) [description](../Projects/bikesharing/)
 
-* Qingyi Wang, Shenhao Wang, **Dingyi Zhuang**, Haris Koutsopoulos, Jinhua Zhao, "Uncertainty Quantification of Spatiotemporal Travel Demand with Probabilistic Graph Neural Networks", in submission to *IEEE Transactions on Intelligent Transportation Systems*. [arixiv](https://arxiv.org/abs/2303.04040) 
+* Qingyi Wang, Shenhao Wang, **Dingyi Zhuang**, Haris Koutsopoulos, Jinhua Zhao, "Uncertainty Quantification of Spatiotemporal Travel Demand with Probabilistic Graph Neural Networks", in submission to *IEEE Transactions on Intelligent Transportation Systems*. [doi](https://ieeexplore.ieee.org/abstract/document/10462016) 
 
-* Yunhan Zheng, Qingyi Wang, **Dingyi Zhuang**, Shenhao Wang, Jinhua Zhao, "Fairness-enhancing deep learning for ride-hailing demand prediction", in submission to *Transportation Research Part C: Emerging Technologies*. [arixiv](https://arxiv.org/abs/2303.05698) 
+* Yunhan Zheng, Qingyi Wang, **Dingyi Zhuang**, Shenhao Wang, Jinhua Zhao, "Fairness-enhancing deep learning for ride-hailing demand prediction", *IEEE Open Journal of Intelligent Transportation Systems*. [doi](https://ieeexplore.ieee.org/abstract/document/10190147) 
 
 <!-- * Siyu Hao, **Dingyi Zhuang**, Der-Horng Lee, A spatial-temporal Deep Learning Framework for Network-wide Bus Passenger Flow prediction. *IET Intelligent Transport Systems* **(Provisionally accepted)** [PDF](https://zhuangdingyi.github.io/files/bus_flow_pred.pdf) -->
 
 
 
 ### Conference
-* **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop*
+* **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop (Best Paper Candidate)*
 
 * Xinke Jiang*, **Dingyi Zhuang**, Xianghui Zhang, Hao Chen, Jiayuan Luo, Xiaowei Gao, Uncertainty Quantification via Spatial-Temporal Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction, *CIKM 2023*. **(In proceeding)** 
 
@@ -62,7 +67,7 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 * Siyu Hao, **Dingyi Zhuang**, De Zhao, Der-Horng Lee, A Pseudo-3D Convolutional Neural Network based Framework for Short-term Mixed Passenger Flow Prediction in Large-scale Public Transit, *Transportation Research Board 2020*. **(Presentation)** [PDF](https://zhuangdingyi.github.io/files/pseudo3d.pdf)
 
 
-## [Projects Gallery](../publications/)  
+<!-- ## [Projects Gallery](../publications/)  
 <style>
   .image-list-small {
   font-family: Arial, Helvetica, sans-serif;
@@ -127,9 +132,10 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.5">
   <title>Freebie: 12 Practical Templates For List Pages</title>
-  <!-- <link rel="stylesheet" href="../../publications/image-list-small.css"> -->
-</head>
-Selected projects: 
+  <!-- <link rel="stylesheet" href="../../publications/image-list-small.css">
+</head> -->
+
+<!-- Selected projects: 
 <ul class="image-list-small">
     <li width="200px">
       <a href="../Projects/STZINB/" style="background-image: url('../files/stzinb.png');" background-size="200px auto"></a>
@@ -145,7 +151,7 @@ Selected projects:
         <p class="image-author">Apr. 2020 ~ Jun. 2020 @ McGill</p>
         </div>
     </li>
-  </ul>
+  </ul> -->
 
 <!-- ## News Archive
 * June 6 2022. I started my internship in Chicago Transit Authority

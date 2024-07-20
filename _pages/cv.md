@@ -10,7 +10,7 @@ redirect_from:
 ## CV
 {% include base_path %}
 
-[My Curriculum Vitae, updated in 2023/11/23](../files/zhuang_dingyi_cv.pdf)
+[My Curriculum Vitae, updated in 2024/7/20](../files/zhuang_dingyi_cv.pdf)
 
 ## Education
 * **Ph.D. in Transportation, MIT**  
@@ -18,6 +18,7 @@ redirect_from:
   GPA: 5.0/5.0  
   Instructor: [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao)  
   Courses: 1.200 Transportation Fundation and Methods (A+), 1.205 Advanced Demand Modeling (A+), 6.336 Intro to Modeling & Simulation (A), 15.072 Advanced Analytics Edge (A), 1.202 Demand Modeling, 6.268 Network Science and Models
+  Thesis: Quantifying Uncertainty: Advancing Robustness, Reliability, and Fairness in AI-Driven Transportation Demand Modeling 
 
 * **M.Eng (thesis) in Civil Engineering and Applied Mechanics, McGill University**  
   Sept. 2019 ~ 2021  
@@ -51,20 +52,23 @@ redirect_from:
 
 ## Teaching experience
 * Teaching Assistant, [1.041/1.200 Transportation Foundation and Methodology](https://web.mit.edu/1.041/www/), Lectured by [Prof. Cathy Wu](http://www.wucathy.com/blog/), Spring 2023, MIT
+* Teaching Assistant, [1.041/1.200 Transportation Foundation and Methodology](https://web.mit.edu/1.041/www/), Lectured by [Prof. Cathy Wu](http://www.wucathy.com/blog/), Spring 2024, MIT
+  
 
 ## Work experience
+* 2024.6-2024.8, Machine Learning Research Associate, [Morgan Stanley](https://www.morganstanley.com/about-us/technology/machine-learning-research-team)
 
 * 2022.6-2022.8, Research Intern, [Chicago Transit Authority](https://www.transitchicago.com/)  
 
 * 2020.8-2020.12, Intern, [ExPretio](http://www.expretio.com/), funded by [Mitacs Accelerate](https://www.mitacs.ca/en/programs/accelerate).
 
-* 2018.7-2018.9, research student, [Civil and Environmental Engineering](http://www.eng.nus.edu.sg/cee/) , National University of Singapore
+* 2018.7-2018.9, Research Student, [Civil and Environmental Engineering](http://www.eng.nus.edu.sg/cee/) , National University of Singapore
 
-* 2017.10-2017.11, research assistant, [Institute of Refrigeration and Cryogenic Engineering](http://www.sjtuirc.sjtu.edu.cn/CN/Default.aspx) , Shanghai Jiao Tong University
+* 2017.10-2017.11, Research Assistant, [Institute of Refrigeration and Cryogenic Engineering](http://www.sjtuirc.sjtu.edu.cn/CN/Default.aspx) , Shanghai Jiao Tong University
 
-* 2017.3-2018.6, project leader, [Chuntsung Program](http://chuntsung.sjtu.edu.cn) , Shanghai Jiao Tong University
+* 2017.3-2018.6, Project Leader, [Chuntsung Program](http://chuntsung.sjtu.edu.cn) , Shanghai Jiao Tong University
 
-* 2016.4-2017.4, key member, [Participant Research Program(PRP)](http://uitp.sjtu.edu.cn/innovation/index.html) , Shanghai Jiao Tong University
+* 2016.4-2017.4, Key Member, [Participant Research Program(PRP)](http://uitp.sjtu.edu.cn/innovation/index.html) , Shanghai Jiao Tong University
 
-* 2015.9-2016.8, research assistant, [Robotics Institute](http://www.robot.sjtu.edu.cn/English/Default.aspx) , Shanghai Jiao Tong University
+* 2015.9-2016.8, Research Assistant, [Robotics Institute](http://www.robot.sjtu.edu.cn/English/Default.aspx) , Shanghai Jiao Tong University
 

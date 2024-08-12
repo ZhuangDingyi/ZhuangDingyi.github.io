@@ -9,23 +9,25 @@ redirect_from:
 ---
 I am a fourth-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](../files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. 
 
-I am working at [Morgan Stanely Machine Learning team](https://www.morganstanley.com/about-us/technology/machine-learning-research-team) as a Research Associate.
-
 If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu) and schedule a 30-min short talk.
 
 
 ## Research Interests
+Bring AI techniques to transportation engineering and urban planning.
 
+### Urban:
 * Urban computing
-* Spatiotemporal data mining
-* Graph neural network
-* Time series
+* Spatiotemporal data mining and pattern discovery
 * Travel behavior analysis
+
+### AI:
+* Graph neural network
+* Generative AI
 * Reinforcement learning
 * Trustworthy AI
 
-Four particular questions I try to study and connect together:
-1. **Spatiotemporal data mining**: imputation, forecasting, kriging, and dynamic kriging. Particularly applying Graph Neural Networks.
+Four particular questions I studied and try to connect together during my Ph.D.:
+1. **Spatiotemporal data modeling**: imputation, forecasting, kriging, and dynamic kriging. Particularly applying Graph Neural Networks.
 2. **Uncertainty quantification**: forecasting with prediction intervals (Baysian or Frequentist ways) and ensuring reliable prediction intervals
 3. **Unstructured data integration and interpretation**: images, virtual & physical networks, textual data
 4. **Equity and social consideration**: mitigating biases (e.g. fariness) in deep learning and AI for humand development

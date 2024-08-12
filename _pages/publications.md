@@ -15,10 +15,12 @@ author_profile: true
 </head>
 
 <ul>
-<li><a href="#dm">Spatial-temporal Data Mining</a></li>
+
 <li><a href="#uq">Uncertainty Quantification</a></li>
 <!-- <li><a href="#dp">Traffic Prediction</a></li> -->
-<li><a href="#st-kriging">Spatial-temporal Kriging (Master Thesis)</a></li>
+<li><a href="#llm">LLM & VLM</a></li>
+<li><a href="#dm">Spatio-temporal Data Mining</a></li>
+<li><a href="#st-kriging">Spatio-temporal Kriging (Master Thesis)</a></li>
 <li><a href="#rl">Control and Reinforcement Learning</a></li>
 <li><a href="#policy">Equity and Social Consideration</a></li>
 </ul>
@@ -26,36 +28,18 @@ author_profile: true
 **Click figures or titles to see details**
 
 <section>
-<h2 id="dm">Spatial-temporal Data Mining</h2>
-<br> 
-  <ul class="image-list-small">    
-    <li>
-      <a href="../Projects/NSTPP/" style="background-image: url('../files/stpp.png');"></a>
-      <div class="details">
-        <h3><a href="../Projects/NSTPP/">Neural Spatiotemporal Point Process for City-Scale Traffic Accident Modeling</a></h3>
-        <p class="image-author">Sep. 2020 ~ Nov. 2020 @ McGill</p>
-        </div>
-    </li>
-    <li>
-      <a href="../Projects/bptf/" style="background-image: url('../files/bptf.png');"></a>
-      <div class="details">
-        <h3><a href="../Projects/bptf/">Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization</a></h3>
-        <p class="image-author">May. 2020 ~ Aug. 2020 @ McGill</p>
-      </div>
-    </li>
-    <li>
-      <a href="../Projects/general_framework/" style="background-image: url('../files/framework_kdd.png');"></a>
-      <div class="details">
-        <h3><a href="../Projects/general_framework/">A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting</a></h3>
-        <p class="image-author">Dec. 2019 ~ Feb. 2020 @ McGill</p>
-      </div>
-    </li>
-  </ul>
 
 <section>
 <h2 id="uq">Uncertainty Quantification</h2>
 <br> 
   <ul class="image-list-small">
+    <li>
+      <a href="../Projects/sauc/" style="background-image: url('../files/sauc.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/sauc">SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks</a></h3>
+        <p class="image-author">Aug. 2023 ~ Feb. 2024 @ MIT</p>
+      </div>
+    </li>
     <li>
       <a href="../Projects/uq_cikm/" style="background-image: url('../files/STTD.png');"></a>
       <div class="details">
@@ -95,7 +79,55 @@ author_profile: true
   </ul>
 
 <section>
-<h2 id="st-kriging">Spatial-temporal Kriging (Master Thesis)</h2>
+<h2 id="llm">LLM & VLM</h2>
+<br> 
+  <ul class="image-list-small">
+  <li>
+      <a href="../Projects/itenira/" style="background-image: url('../files/itenira.jpeg');"></a>
+      <div class="details">
+        <h3><a href="../Projects/itenira/">Synergizing Spatial Optimization with Large Language Models for Open-Domain Urban Itinerary Planning</a></h3>
+        <p class="image-author">Aug. 2023 ~ Feb. 2024 @ MIT</p>
+        </div>
+    </li>
+  </ul>
+  <ul class="image-list-small">
+  <li>
+      <a href="../Projects/llm_mp/" style="background-image: url('../files/llm_mp.jpg');"></a>
+      <div class="details">
+        <h3><a href="../Projects/llm_mp/">Large Language Models for Travel Behavior Prediction</a></h3>
+        <p class="image-author">Aug. 2023 ~ Jan. 2024 @ MIT</p>
+        </div>
+    </li>
+  </ul>
+
+<h2 id="dm">Spatio-temporal Data Mining</h2>
+<br> 
+  <ul class="image-list-small">    
+    <li>
+      <a href="../Projects/biasblock/" style="background-image: url('../files/biasblock.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/biasblock/">A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting</a></h3>
+        <p class="image-author">Sep. 2020 ~ Aug. 2021 @ McGill</p>
+        </div>
+    </li>
+    <li>
+      <a href="../Projects/NSTPP/" style="background-image: url('../files/stpp.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/NSTPP/">Neural Spatiotemporal Point Process for City-Scale Traffic Accident Modeling</a></h3>
+        <p class="image-author">Sep. 2020 ~ Nov. 2020 @ McGill</p>
+        </div>
+    </li>
+    <li>
+      <a href="../Projects/bptf/" style="background-image: url('../files/bptf.png');"></a>
+      <div class="details">
+        <h3><a href="../Projects/bptf/">Modeling Paratransit Demand with Hankel-structured Poisson Tensor Factorization</a></h3>
+        <p class="image-author">May. 2020 ~ Aug. 2020 @ McGill</p>
+      </div>
+    </li>
+  </ul>
+
+<section>
+<h2 id="st-kriging">Spatio-temporal Kriging (Master Thesis)</h2>
 <br> 
   <ul class="image-list-small">
   <li>

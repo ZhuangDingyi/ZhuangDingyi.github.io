@@ -4,7 +4,7 @@ title: "Personal"
 permalink: /personal/
 author_profile: true
 ---
-<img src="../files/dingyi_london.jpg"/>
+<img src="../files/dingyi_portrait.jpg"/>
 
 ## After-school activities
 <img src="../files/jtl_logo.png" style="width: 100px;float: left;"/>  

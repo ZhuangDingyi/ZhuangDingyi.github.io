@@ -52,21 +52,27 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 ### Conference
 #### CS + AI
-* Yihong Tang, Zhaokai Wang, Ao Qu, Yihao Yan, Kebing Hou, **Dingyi Zhuang**, Xiaotong Guo, Jinhua Zhao, Zhan Zhao, Wei Ma, ItiNera: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning, *The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024); The 13th International Workshop on Urban Computing (Urbcomp 2024)*. <span style="color:red;">**(Best Paper Award)**</span>
+* Yihong Tang, Zhaokai Wang, Ao Qu, Yihao Yan, Kebing Hou, **Dingyi Zhuang**, Xiaotong Guo, Jinhua Zhao, Zhan Zhao, Wei Ma, ItiNera: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning, *The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024); The 13th International Workshop on Urban Computing (Urbcomp 2024)*. <span style="color:red;">**(Best Paper Award)**</span> [paper](https://aclanthology.org/2024.emnlp-industry.104.pdf) 
 
-* **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop* <span style="color:red;">**(Best Paper Candidate)**</span>
+* **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop* <span style="color:red;">**(Best Paper Candidate)**</span> [paper](https://dl.acm.org/doi/pdf/10.1145/3678717.3691241)
 
-* Xinke Jiang*, **Dingyi Zhuang**, Xianghui Zhang, Hao Chen, Jiayuan Luo, Xiaowei Gao, Uncertainty Quantification via Spatial-Temporal Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction, *CIKM 2023*. **(In proceeding)** 
+* Xinke Jiang*, **Dingyi Zhuang**, Xianghui Zhang, Hao Chen, Jiayuan Luo, Xiaowei Gao, Uncertainty Quantification via Spatial-Temporal Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction, *CIKM 2023*. **(In proceeding)** [paper](https://dl.acm.org/doi/pdf/10.1145/3583780.3615215)
 
 * **Dingyi Zhuang**, Shenhao Wang, Haris Koutsopoulos, Jinhua Zhao, Uncertainty Quantification of Sparse Trip Demand Prediction with Spatial-Temporal Graph Neural Networks, *The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2022)*. **(Oral presentation)** [code](https://github.com/ZhuangDingyi/STZINB) [doi](https://doi.org/10.1145/3534678.3539093) [description](../Projects/STZINB/)    
 
 * Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging, *Association for the Advancement of Artificial Intelligence 2021 (AAAI 2021)*. **(Oral presentation)** [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK) [description](../Projects/IGNNK/)
   
 #### Transportation and Urban Science
+
+* **Dingyi Zhuang**, Hanyong Xu, Xiaotong Guo, Yunhan Zheng, Jinhua Zhao, Mitigating Spatial Disparity in Urban Prediction Using Residual-Aware Spatiotemporal Graph Neural Networks: A Chicago Case Study, *Transportation Research Board, 2025*.
+
+* Xiaoyang Cao, **Dingyi Zhuang**, Shenhao Wang, Jinhua Zhao, Virtual Nodes Improve Long-term Traffic Prediction, *Transportation Research Board, 2025*.
+
+* Baichuan Mo, Hanyong Xu, **Dingyi Zhuang**, Ruoyun Ma, Xiaotong Guo, Jinhua Zhao, Large language models for travel behavior prediction, *TRC-30, 2024*.
+
 * Xiaowei Gao, James Haworth, **Dingyi Zhuang**, Huanfa Chen, Xinke Jiang, Uncertainty Quantification in Road-level Traffic Risk Prediction by Spatial-Temporal Zero-Inflated Negative Binomial Graph Neural Network, *12th International Conference on Geographic Information Science (GIScience-2023)*. **(In proceeding)** 
 
 * **Dingyi Zhuang**, Yuzhu Huang, Vindula Jayawardana, Jinhua Zhao, Dajiang Suo, Cathy Wu, The Braess Paradox in Dynamic Traffic, *IEEE 25th International Conference on Intelligent Transportation Systems (ITSC 2022)*. **(In proceeding)** [arXiv](https://arxiv.org/pdf/2203.03726.pdf) [description](../Projects/braess/)
-
 
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, An empirical study on cycle lane network using bike sharing data: the case of Shanghai, *2018 International Conference on Transportation and Space-time Economics*. **(Oral presentation)** [PPT](https://zhuangdingyi.github.io/files/2018-08-23-Pre-Bikesharing.pdf)
 

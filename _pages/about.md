@@ -51,7 +51,7 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 
 ### Conference
-#### CS + AI
+### CS + AI
 * Yihong Tang, Zhaokai Wang, Ao Qu, Yihao Yan, Kebing Hou, **Dingyi Zhuang**, Xiaotong Guo, Jinhua Zhao, Zhan Zhao, Wei Ma, ItiNera: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning, *The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024); The 13th International Workshop on Urban Computing (Urbcomp 2024)*. <span style="color:red;">**(Best Paper Award)**</span> [paper](https://aclanthology.org/2024.emnlp-industry.104.pdf) 
 
 * **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop* <span style="color:red;">**(Best Paper Candidate)**</span> [paper](https://dl.acm.org/doi/pdf/10.1145/3678717.3691241)
@@ -62,7 +62,7 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 * Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging, *Association for the Advancement of Artificial Intelligence 2021 (AAAI 2021)*. **(Oral presentation)** [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK) [description](../Projects/IGNNK/)
   
-#### Transportation and Urban Science
+### Transportation and Urban Science
 
 * **Dingyi Zhuang**, Hanyong Xu, Xiaotong Guo, Yunhan Zheng, Jinhua Zhao, Mitigating Spatial Disparity in Urban Prediction Using Residual-Aware Spatiotemporal Graph Neural Networks: A Chicago Case Study, *Transportation Research Board, 2025*.
 

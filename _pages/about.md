@@ -9,9 +9,6 @@ redirect_from:
 ---
 I am a fourth-year Ph.D. student at [MIT JTL Transit Lab](https://mobility.mit.edu/) supervised by [Prof. Jinhua Zhao](https://dusp.mit.edu/faculty/jinhua-zhao). I previously received my M.Eng degree at <u>McGill University</u>, supervised by [Prof. Lijun Sun](https://lijunsun.github.io/). Before that, I obtained my Bachelor's degree in Mechanical Engineering from <u>Shanghai Jiao Tong University</u> and was a research assistant at <u>National University of Singapore</u>. My supervisors at two universities are [Prof. Jiangang Jin](http://naoce.sjtu.edu.cn/en/teachershow.aspx?info_lb=24&info_id=8&flag=2) and  [Prof. Lee Der-Horng](https://www.eng.nus.edu.sg/cee/staff/lee-der-horng/) respectively. Click [here](../files/zhuang_dingyi_cv.pdf) to view my up-to-date CV. 
 
-If you want to know more about me, please feel free to [contact me (dingyi@mit.edu)](mailto:dingyi@mit.edu) and schedule a 30-min short talk.
-
-
 ## Research Interests
 Bring AI techniques to transportation engineering and urban planning.
 
@@ -34,6 +31,8 @@ Four particular questions I studied and try to connect together during my Ph.D.:
 
 ## Publication
 ### Journal
+* Xiaowei Gao, Xinke Jiang, James Haworth, **Dingyi Zhuang**, Shenhao Wang, Huanfa Chen, Stephen Law, Uncertainty-aware probabilistic graph neural networks for road-level traffic crash prediction, *Accident Analysis and Prevention, 2024*. [doi](https://www.sciencedirect.com/science/article/pii/S0001457524003464)
+
 * Xudong Wang, Yuankai Wu, **Dingyi Zhuang**, Lijun Sun. "Low-Rank Hankel Tensor Completion for Traffic Speed Estimation." *IEEE Transactions on Intelligent Transportation Systems* [doi](https://ieeexplore.ieee.org/abstract/document/10058108) 
 
 * Fuqiang Liu, Jiawei Wang, Jingbo Tian, **Dingyi Zhuang**, Luis Miranda-Moreno, and Lijun Sun. "A Universal Framework of Spatiotemporal Bias Block for Long-Term Traffic Forecasting." *IEEE Transactions on Intelligent Transportation Systems* [doi](https://doi.org/10.1109/TITS.2022.3157129) [description](../Projects/general_framework/) 
@@ -52,17 +51,22 @@ using smart card data", *Transportation Research Part C: Emerging Technology*. [
 
 
 ### Conference
-* **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop (Best Paper Candidate)*
+#### CS + AI
+* Yihong Tang, Zhaokai Wang, Ao Qu, Yihao Yan, Kebing Hou, **Dingyi Zhuang**, Xiaotong Guo, Jinhua Zhao, Zhan Zhao, Wei Ma, ItiNera: Integrating Spatial Optimization with Large Language Models for Open-domain Urban Itinerary Planning, *The 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024); The 13th International Workshop on Urban Computing (Urbcomp 2024)*. <span style="color:red;">**(Best Paper Award)**</span>
+
+* **Dingyi Zhuang**, Yuheng Bu, Guang Wang, Shenhao Wang, Jinhua Zhao, SAUC: Sparsity-Aware Uncertainty Calibration for Spatiotemporal Prediction with Graph Neural Networks, *NeurIPS 2023 TGL Workshop* <span style="color:red;">**(Best Paper Candidate)**</span>
 
 * Xinke Jiang*, **Dingyi Zhuang**, Xianghui Zhang, Hao Chen, Jiayuan Luo, Xiaowei Gao, Uncertainty Quantification via Spatial-Temporal Tweedie Model for Zero-inflated and Long-tail Travel Demand Prediction, *CIKM 2023*. **(In proceeding)** 
 
-* Xiaowei Gao, James Haworth, **Dingyi Zhuang**, Huanfa Chen, Xinke Jiang, Uncertainty Quantification in Road-level Traffic Risk Prediction by Spatial-Temporal Zero-Inflated Negative Binomial Graph Neural Network, *12th International Conference on Geographic Information Science (GIScience-2023)*. **(In proceeding)** 
-
 * **Dingyi Zhuang**, Shenhao Wang, Haris Koutsopoulos, Jinhua Zhao, Uncertainty Quantification of Sparse Trip Demand Prediction with Spatial-Temporal Graph Neural Networks, *The 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD 2022)*. **(Oral presentation)** [code](https://github.com/ZhuangDingyi/STZINB) [doi](https://doi.org/10.1145/3534678.3539093) [description](../Projects/STZINB/)    
+
+* Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging, *Association for the Advancement of Artificial Intelligence 2021 (AAAI 2021)*. **(Oral presentation)** [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK) [description](../Projects/IGNNK/)
+  
+#### Transportation and Urban Science
+* Xiaowei Gao, James Haworth, **Dingyi Zhuang**, Huanfa Chen, Xinke Jiang, Uncertainty Quantification in Road-level Traffic Risk Prediction by Spatial-Temporal Zero-Inflated Negative Binomial Graph Neural Network, *12th International Conference on Geographic Information Science (GIScience-2023)*. **(In proceeding)** 
 
 * **Dingyi Zhuang**, Yuzhu Huang, Vindula Jayawardana, Jinhua Zhao, Dajiang Suo, Cathy Wu, The Braess Paradox in Dynamic Traffic, *IEEE 25th International Conference on Intelligent Transportation Systems (ITSC 2022)*. **(In proceeding)** [arXiv](https://arxiv.org/pdf/2203.03726.pdf) [description](../Projects/braess/)
 
-* Yuankai Wu, **Dingyi Zhuang**, Aurelie Labbe, Lijun Sun, Inductive graph neural networks for spatiotemporal kriging, *Association for the Advancement of Artificial Intelligence 2021 (AAAI 2021)*. **(Oral presentation)** [arXiv](https://arxiv.org/abs/2006.07527) [code](https://github.com/Kaimaoge/IGNNK) [description](../Projects/IGNNK/)
 
 * **Dingyi Zhuang**, Jiangang Jin, Yifan Shen, Wei Jiang, An empirical study on cycle lane network using bike sharing data: the case of Shanghai, *2018 International Conference on Transportation and Space-time Economics*. **(Oral presentation)** [PPT](https://zhuangdingyi.github.io/files/2018-08-23-Pre-Bikesharing.pdf)
 

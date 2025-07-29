@@ -120,13 +120,48 @@ name {
   max-width:35%;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 768px) {
+  body, table {
+    font-size: 16px;
+  }
+  
   .intro {
-    padding: 20px 5px 20px 20px;
+    padding: 15px;
+    width: 100% !important;
+    display: block;
   }
 
   .headshort {
-    padding: 20px 2px 20px 5px;
+    padding: 15px;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+    text-align: center;
+  }
+  
+  .headshort img {
+    max-width: 200px !important;
+    margin: 0 auto;
+  }
+  
+  table[style*="max-width:900px"] {
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  
+  .intro_paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  name {
+    font-size: 28px;
+  }
+  
+  .media-box {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
   }
 }
 
@@ -209,20 +244,45 @@ name {
   line-height: 22px;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 768px) {
   .paper_entry td {
     display: block;
-    float: left;
+    width: 100% !important;
   }
 
   .paper_tb {
-    padding: 15px 20px 0px 20px;
-    width: 90%;
+    padding: 10px 15px;
+    width: 100% !important;
+    text-align: center;
+  }
+  
+  .paper_tb img {
+    max-width: 150px;
   }
 
   .paper_details {
-    padding: 15px 20px 15px 20px;
-    width: 90%;
+    padding: 10px 15px;
+    width: 100% !important;
+  }
+  
+  .news_date1, .news_date2 {
+    padding: 0px 10px 0px 15px;
+    font-size: 14px;
+  }
+  
+  .news_details {
+    padding: 0px 15px 0px 10px;
+    font-size: 15px;
+  }
+  
+  div[style*="max-height: 300px"] {
+    max-height: 200px !important;
+  }
+  
+  p[style*="text-align:center"] a {
+    display: inline-block;
+    margin: 5px 2px;
+    font-size: 14px;
   }
 }
 

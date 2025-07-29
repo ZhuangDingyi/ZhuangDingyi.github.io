@@ -257,7 +257,8 @@ name {
   }
   
   .paper_tb img {
-    max-width: 150px;
+    max-width: 200px;
+    width: 100%;
   }
 
   .paper_details {
@@ -345,6 +346,14 @@ span.highlight {
     border-radius: 50%;
     margin-right: 5px;
     display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .topic-circle {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
 }
 
 .st-color { background-color: #ff5733; }

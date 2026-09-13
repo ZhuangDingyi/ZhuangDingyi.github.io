@@ -21,6 +21,7 @@ const RESEARCH_SUBTOPICS = [
 ];
 
 const PUBLICATION_SUBTOPICS = new Map([
+  ['Rethinking Driving Topology Reasoning: Plug-and-Play Discrete Graph Refinement', ['spatiotemporal', 'autonomous-driving', 'calibration']],
   ['EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth Systems and Natural Hazards', ['llm-agents', 'tool-planning', 'agent-evaluation', 'ai-science', 'fairness']],
   ['Public Transit Gains and Spatially Uneven Travel Demand Changes after NYC Congestion Pricing', ['spatiotemporal', 'forecast-optimization', 'uncertainty', 'calibration']],
   ['Bridge: Retrieval-Augmented Spatiotemporal Modeling for Urban Delivery Demand', ['llm-agents', 'spatiotemporal', 'forecast-optimization']],
@@ -259,6 +260,5 @@ function showAllBySubtopic(subtopicKey) {
 
 document.addEventListener('DOMContentLoaded', () => {
   decoratePublicationTopics();
-  const publicationCount = document.querySelectorAll('#publications-table tr.paper_entry').length;
-  updateFilterStatus('All research directions', publicationCount);
+  document.body.classList.remove('publications-pending');
 });

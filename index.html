@@ -11,20 +11,17 @@
     gtag('config', 'UA-116732893-1');
 </script>
 
-  <link rel="stylesheet" href="assets/academicons/css/academicons.min.css">
-  
   <title>Dingyi Zhuang</title>
   
   <meta name="author" content="Dingyi Zhuang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20260913-2">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20260913-3">
   <link href="data/misc/favicon.ico" rel="shortcut icon">
   <link href="data/misc/favicon_apple.ico" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="assets/academicons/css/academicons.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.0/css/all.css">
   <!-- <script defer src="assets/js/fontawesome.all.min.js"></script> -->
   <style>
   .media-box {
@@ -48,7 +45,7 @@
 </style>
 </head>
 
-<body>
+<body class="publications-pending">
   <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
@@ -56,7 +53,7 @@
           <tr class="profile-row" style="padding:0px">
             
             <td class="headshort">
-              <a href="data/misc/dingyi.png" target="_blank"><img style="width:100%;max-width:100%" alt="profile photo" src="data/misc/dingyi.png" class="hoverZoomLink"></a>
+              <a href="data/misc/dingyi.png" target="_blank"><img style="width:100%;max-width:100%" alt="profile photo" src="data/misc/dingyi.png" class="hoverZoomLink" decoding="async" fetchpriority="high"></a>
             </td>
             
             <td class="intro">
@@ -110,6 +107,13 @@
           <table style="width:100%; border:0px; border-spacing:0px; border-collapse:separate; margin-right:auto; margin-left:auto;">
             <tbody>
               <!-- News Items -->
+              <tr>
+                <td class="news_date1">Sep</td>
+                <td class="news_date2">2026</td>
+                <td class="news_details">
+                  Our paper <strong>TopoRefine</strong> is under review at NeurIPS 2026, introducing plug-and-play discrete graph refinement for autonomous-driving topology reasoning.
+                </td>
+              </tr>
               <tr>
                 <td class="news_date1">Aug</td>
                 <td class="news_date2">2026</td>
@@ -455,7 +459,7 @@
                     </div>
                   </section>
                 </div>
-                <p id="research-filter-status" class="research-filter-status" aria-live="polite">Showing all publications</p>
+                <p id="research-filter-status" class="research-filter-status" aria-live="polite">Selected publications</p>
               </td>
             </tr>
           </tbody>
@@ -481,12 +485,38 @@
 
           <tr class="paper_entry"
           data-year="2026"
+          data-topic="tp uq"
+          data-selected="true"
+          id="toporefine">
+            <td class="paper_tb">
+              <div class="tb_one"><div class="tb_two">
+                <img src="data/thumbnails/toporefine.png" alt="TopoRefine training and inference framework for discrete driving topology graph refinement" loading="lazy" decoding="async">
+              </div></div>
+            </td>
+            <td class="paper_details">
+              <a target="_blank" href="https://openreview.net/forum?id=XGYxmsrdok">
+                <papertitle>Rethinking Driving Topology Reasoning: Plug-and-Play Discrete Graph Refinement</papertitle>
+              </a>
+              <br>
+              <strong class="wrap">Dingyi Zhuang</strong>, Xiaoqi Wang, David Paz, Wenbin He, Jinhua Zhao, Liu Ren
+              <br>
+              <div class="media-box-conference"><strong><span class="paper_year">[NeurIPS]</span></strong></div>
+              <span class="paper_conf">Under Review</span> <span class="paper_year">2026</span>
+              <br>
+              <a class="wrap" target="_blank" href="https://openreview.net/forum?id=XGYxmsrdok"><i class="fa-solid fa-comments"></i> OpenReview</a> |
+              <div class="wrap topic-circle tp-color"></div>
+              <div class="wrap topic-circle uq-color"></div>
+            </td>
+          </tr>
+
+          <tr class="paper_entry"
+          data-year="2026"
           data-topic="llm uq"
           data-selected="true"
           id="earthverse">
             <td class="paper_tb">
               <div class="tb_one"><div class="tb_two">
-                <img src="data/thumbnails/earthverse.png" alt="EarthVerse benchmark construction workflow" loading="lazy">
+                <img src="data/thumbnails/earthverse.png" alt="EarthVerse benchmark construction workflow" loading="lazy" decoding="async">
               </div></div>
             </td>
             <td class="paper_details">
@@ -512,11 +542,11 @@
           <tr class="paper_entry"
           data-year="2026"
           data-topic="tp uq"
-          data-selected="true"
+          data-selected="false"
           id="nyc-congestion-pricing">
             <td class="paper_tb">
               <div class="tb_one"><div class="tb_two">
-                <img src="data/thumbnails/nyc_congestion.png" alt="Uncertainty-aware counterfactual forecasting framework for NYC congestion pricing" loading="lazy">
+                <img src="data/thumbnails/nyc_congestion.png" alt="Uncertainty-aware counterfactual forecasting framework for NYC congestion pricing" loading="lazy" decoding="async">
               </div></div>
             </td>
             <td class="paper_details">
@@ -543,7 +573,7 @@
           id="bridge">
             <td class="paper_tb">
               <div class="tb_one"><div class="tb_two">
-                <img src="data/thumbnails/bridge.png" alt="Bridge retrieval-augmented spatiotemporal forecasting framework" loading="lazy">
+                <img src="data/thumbnails/bridge.png" alt="Bridge retrieval-augmented spatiotemporal forecasting framework" loading="lazy" decoding="async">
               </div></div>
             </td>
             <td class="paper_details">
@@ -565,11 +595,11 @@
           <tr class="paper_entry"
           data-year="2026"
           data-topic="tp"
-          data-selected="true"
+          data-selected="false"
           id="ozone">
             <td class="paper_tb">
               <div class="tb_one"><div class="tb_two">
-                <img src="data/thumbnails/ozone.jpg" alt="Five-layer architecture of the Ozone transportation research platform" loading="lazy">
+                <img src="data/thumbnails/ozone.jpg" alt="Five-layer architecture of the Ozone transportation research platform" loading="lazy" decoding="async">
               </div></div>
             </td>
             <td class="paper_details">
@@ -595,7 +625,7 @@
           id="riskmv-dpo">
             <td class="paper_tb">
               <div class="tb_one"><div class="tb_two">
-                <img src="data/thumbnails/riskmv_dpo.png" alt="RiskMV-DPO risk-controllable multi-view driving scenario generation framework" loading="lazy">
+                <img src="data/thumbnails/riskmv_dpo.png" alt="RiskMV-DPO risk-controllable multi-view driving scenario generation framework" loading="lazy" decoding="async">
               </div></div>
             </td>
             <td class="paper_details">
@@ -624,7 +654,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/trustenergy.png" alt="TrustEnergy spatiotemporal learning and uncertainty calibration framework" loading="lazy">
+                  <img src="data/thumbnails/trustenergy.png" alt="TrustEnergy spatiotemporal learning and uncertainty calibration framework" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -655,7 +685,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/think_drive.png">
+                  <img src="data/thumbnails/think_drive.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -686,7 +716,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/timepre.png">
+                  <img src="data/thumbnails/timepre.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -720,7 +750,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/alphaopt.png">
+                  <img src="data/thumbnails/alphaopt.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -759,7 +789,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/uam_framework.png">
+                  <img src="data/thumbnails/uam_framework.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -792,7 +822,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/humanform.png">
+                  <img src="data/thumbnails/humanform.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -821,7 +851,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/uqgnn.jpg" alt="UQGNN multiscale probabilistic spatiotemporal prediction framework" loading="lazy">
+                  <img src="data/thumbnails/uqgnn.jpg" alt="UQGNN multiscale probabilistic spatiotemporal prediction framework" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -855,7 +885,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/intst.jpg">
+                  <img src="data/thumbnails/intst.jpg" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -884,7 +914,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/aap_imputation.jpg">
+                  <img src="data/thumbnails/aap_imputation.jpg" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -917,11 +947,11 @@
           <tr class="paper_entry" 
           data-year="2025"
           data-topic="st"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/datf.png">
+                  <img src="data/thumbnails/datf.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -953,7 +983,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/foundation_st.png">
+                  <img src="data/thumbnails/foundation_st.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -981,7 +1011,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/urbanci.png">
+                  <img src="data/thumbnails/urbanci.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1011,11 +1041,11 @@
           <tr class="paper_entry" 
           data-year="2025"
           data-topic="uq"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/gets.png">
+                  <img src="data/thumbnails/gets.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1048,7 +1078,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/dblm.png">
+                  <img src="data/thumbnails/dblm.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1080,11 +1110,11 @@
           <tr class="paper_entry"
           data-year="2025"
           data-topic="tp uq"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/raa.png">
+                  <img src="data/thumbnails/raa.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1115,11 +1145,11 @@
           <tr class="paper_entry" 
           data-year="2024"
           data-topic="llm tp st"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/itenera.png">
+                  <img src="data/thumbnails/itenera.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1160,11 +1190,11 @@
           <tr class="paper_entry" 
           data-year="2024"
           data-topic="uq tp st"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/sttd.png">
+                  <img src="data/thumbnails/sttd.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1195,11 +1225,11 @@
           <tr class="paper_entry" 
           data-year="2022"
           data-topic="uq st"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/stzinb.png">
+                  <img src="data/thumbnails/stzinb.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1227,11 +1257,11 @@
           <tr class="paper_entry" 
           data-year="2023"
           data-topic="uq st"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/cikm_sttd.png">
+                  <img src="data/thumbnails/cikm_sttd.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1260,11 +1290,11 @@
           <tr class="paper_entry"
           data-year="2024"
           data-topic="uq st"
-          data-selected="true" >
+          data-selected="false" >
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/sauc.png">
+                  <img src="data/thumbnails/sauc.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1299,7 +1329,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/llm_mp.jpg" alt="Prompt-based large language model framework for travel behavior prediction" loading="lazy">
+                  <img src="data/thumbnails/llm_mp.jpg" alt="Prompt-based large language model framework for travel behavior prediction" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1329,11 +1359,11 @@
           <tr class="paper_entry" 
           data-year="2021"
           data-topic="st"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/ignnk.jpg">
+                  <img src="data/thumbnails/ignnk.jpg" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1361,11 +1391,11 @@
           <tr class="paper_entry" 
           data-year="2022"
           data-topic="tp"
-          data-selected="true">
+          data-selected="false">
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/braess.webp">
+                  <img src="data/thumbnails/braess.webp" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1402,7 +1432,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/stns.gif">
+                  <img src="data/thumbnails/stns.gif" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1432,7 +1462,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/uq_tits.png">
+                  <img src="data/thumbnails/uq_tits.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1465,7 +1495,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/sparkle.png">
+                  <img src="data/thumbnails/sparkle.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1501,7 +1531,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/vn.png">
+                  <img src="data/thumbnails/vn.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1529,7 +1559,7 @@
           id="fairness-rebalancing">
             <td class="paper_tb">
               <div class="tb_one"><div class="tb_two">
-                <img src="data/thumbnails/fair_rebalancing.png" alt="Fairness-enhancing demand prediction and vehicle rebalancing framework" loading="lazy">
+                <img src="data/thumbnails/fair_rebalancing.png" alt="Fairness-enhancing demand prediction and vehicle rebalancing framework" loading="lazy" decoding="async">
               </div></div>
             </td>
             <td class="paper_details">
@@ -1555,7 +1585,7 @@
           id="st-gin">
             <td class="paper_tb">
               <div class="tb_one"><div class="tb_two">
-                <img src="data/thumbnails/st_gin.svg" alt="ST-GIN graph attention and bidirectional recurrent imputation framework" loading="lazy">
+                <img src="data/thumbnails/st_gin.svg" alt="ST-GIN graph attention and bidirectional recurrent imputation framework" loading="lazy" decoding="async">
               </div></div>
             </td>
             <td class="paper_details">
@@ -1581,7 +1611,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/fairness_ojits.png">
+                  <img src="data/thumbnails/fairness_ojits.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1612,7 +1642,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/universal.png">
+                  <img src="data/thumbnails/universal.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1644,7 +1674,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/lr_hankel.png">
+                  <img src="data/thumbnails/lr_hankel.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1674,7 +1704,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/satcn.png">
+                  <img src="data/thumbnails/satcn.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1706,7 +1736,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/dhm.png">
+                  <img src="data/thumbnails/dhm.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1738,7 +1768,7 @@
             <td class="paper_tb">
               <div class="tb_one">
                 <div class="tb_two">
-                  <img src="data/thumbnails/geographic_barrier_titled.png">
+                  <img src="data/thumbnails/geographic_barrier_titled.png" loading="lazy" decoding="async">
                 </div>
               </div>
             </td>
@@ -1924,7 +1954,10 @@
           </tr>
         </tbody></table>
 
-        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=tt&d=IOfsTsg_5cgvk99-MCQe3awPo4ClF2ymszy36Pzp-sI&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+        <div class="visitor-widget" aria-live="polite">
+          <script async type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=080808&amp;w=300&amp;t=tt&amp;d=IOfsTsg_5cgvk99-MCQe3awPo4ClF2ymszy36Pzp-sI&amp;co=ffffff&amp;cmo=3acc3a&amp;cmn=ff5353&amp;ct=808080" onerror="this.parentElement.classList.add('is-unavailable')"></script>
+          <span class="visitor-widget-fallback">Visitor map is temporarily unavailable.</span>
+        </div>
             
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -1940,7 +1973,7 @@
       </td>
     </tr>
   </table>  
-  <script src="filterProjects.js?v=20260913-2"></script>
+  <script src="filterProjects.js?v=20260913-4"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Automatically show selected pubs by date on page load

@@ -227,6 +227,10 @@ name {
   vertical-align: top;
 }
 
+.publications-pending #publications-table tr.paper_entry[data-selected="false"] {
+  display: none;
+}
+
 .paper_tb video {
   border-radius: 10px;
 	/* border: 1px solid black; */
@@ -602,6 +606,21 @@ span.highlight {
   margin: -8px 0 14px;
   min-height: 16px;
   text-align: right;
+}
+
+.visitor-widget {
+  min-height: 24px;
+  padding: 0 20px 20px;
+}
+
+.visitor-widget-fallback {
+  color: #777;
+  display: none;
+  font-size: 12px;
+}
+
+.visitor-widget.is-unavailable .visitor-widget-fallback {
+  display: inline;
 }
 
 @media (max-width: 768px) {

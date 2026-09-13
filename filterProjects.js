@@ -1,3 +1,79 @@
+const RESEARCH_DIRECTIONS = [
+  {
+    key: 'llm',
+    label: 'AI Agents',
+    icon: 'fa-wand-magic-sparkles',
+    aliases: ['llm']
+  },
+  {
+    key: 'tp',
+    label: 'Transportation & Autonomy',
+    icon: 'fa-route',
+    aliases: ['tp', 'st']
+  },
+  {
+    key: 'uq',
+    label: 'Trustworthy AI',
+    icon: 'fa-shield-halved',
+    aliases: ['uq']
+  }
+];
+
+function getCanonicalTopics(row) {
+  const rawTopics = (row.getAttribute('data-topic') || '').split(/\s+/).filter(Boolean);
+  return RESEARCH_DIRECTIONS
+    .filter(direction => direction.aliases.some(alias => rawTopics.includes(alias)))
+    .map(direction => direction.key);
+}
+
+function decoratePublicationTopics() {
+  const table = document.getElementById('publications-table');
+  if (!table) return;
+
+  table.querySelectorAll('tr.paper_entry').forEach(row => {
+    const details = row.querySelector('.paper_details');
+    if (!details) return;
+
+    const thumbnail = row.querySelector('.paper_tb img');
+    const paperTitle = row.querySelector('papertitle');
+    if (thumbnail) {
+      thumbnail.loading = 'lazy';
+      if (!thumbnail.alt && paperTitle) {
+        thumbnail.alt = `Key figure from ${paperTitle.textContent.trim()}`;
+      }
+    }
+
+    details.querySelectorAll('.topic-circle').forEach(dot => dot.remove());
+    const oldLabels = details.querySelector('.paper-topic-labels');
+    if (oldLabels) oldLabels.remove();
+
+    const topics = getCanonicalTopics(row);
+    if (!topics.length) return;
+
+    const labels = document.createElement('span');
+    labels.className = 'paper-topic-labels';
+    labels.setAttribute('aria-label', 'Research directions');
+
+    topics.forEach(topic => {
+      const direction = RESEARCH_DIRECTIONS.find(item => item.key === topic);
+      const label = document.createElement('span');
+      label.className = 'paper-topic-label';
+      label.dataset.topic = direction.key;
+
+      const icon = document.createElement('i');
+      icon.className = `fa-solid ${direction.icon}`;
+      icon.setAttribute('aria-hidden', 'true');
+
+      const text = document.createElement('span');
+      text.textContent = direction.label;
+
+      label.append(icon, text);
+      labels.appendChild(label);
+    });
+
+    details.appendChild(labels);
+  });
+}
 
 function filterPublications(filterFn) {
   const table = document.getElementById('publications-table');
@@ -13,6 +89,14 @@ function filterPublications(filterFn) {
     } else {
       row.style.display = 'none';
     }
+  });
+}
+
+function setActiveDirection(topic) {
+  document.querySelectorAll('.research-direction').forEach(button => {
+    const isActive = button.dataset.topic === topic;
+    button.classList.toggle('is-active', isActive);
+    button.setAttribute('aria-pressed', String(isActive));
   });
 }
 
@@ -43,6 +127,7 @@ function showSelected() {
       table.tBodies[0].appendChild(r);
       r.style.display = '';
     });
+    setActiveDirection(null);
   }
 
 // 3. Show all rows by date descending
@@ -65,6 +150,7 @@ function showAllByDate() {
 
   // Finally, show all
   rows.forEach(r => r.style.display = '');
+  setActiveDirection(null);
 }
 
 // 4. Show all rows, but only those matching a certain topic
@@ -75,11 +161,9 @@ function showAllByTopic(topic) {
     // 1. Grab all rows
     let rows = Array.from(table.querySelectorAll('tr.paper_entry'));
   
-    // 2. Filter for rows whose data-topic contains the chosen topic
-    rows = rows.filter(row => {
-      const topics = row.getAttribute('data-topic') || '';
-      return topics.split(' ').includes(topic);
-    });
+    // 2. Filter using the new three-direction taxonomy.
+    // Legacy "st" entries are folded into transportation and autonomous systems.
+    rows = rows.filter(row => getCanonicalTopics(row).includes(topic));
   
     // 3. Sort the filtered rows by year (descending)
     rows.sort((a, b) => {
@@ -97,4 +181,7 @@ function showAllByTopic(topic) {
       table.tBodies[0].appendChild(r);
       r.style.display = '';
     });
+    setActiveDirection(topic);
   }
+
+document.addEventListener('DOMContentLoaded', decoratePublicationTopics);

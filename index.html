@@ -18,7 +18,7 @@
   <meta name="author" content="Dingyi Zhuang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=20260913-2">
   <link href="data/misc/favicon.ico" rel="shortcut icon">
   <link href="data/misc/favicon_apple.ico" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
@@ -420,27 +420,42 @@
             <tr>
               <td style="padding:0px 20px;width:100%;vertical-align:middle;">
                 <div class="research-taxonomy" aria-label="Research directions">
-                  <button class="research-direction direction-agents" type="button" data-topic="llm" onclick="showAllByTopic('llm')" aria-label="Show publications in AI Agents and Foundation Models" aria-pressed="false">
-                    <span class="direction-heading"><span class="direction-icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></span><span>AI Agents and Foundation Models</span></span>
-                    <span class="direction-tags">
-                      <span>LLM Agents</span><span>Tool Use &amp; Planning</span><span>Recursive Self-Improvement (RSI)</span>
-                      <span>Multimodal Reasoning</span><span>Agent Evaluation</span><span>AI for Science</span>
-                    </span>
-                  </button>
-                  <button class="research-direction direction-transport" type="button" data-topic="tp" onclick="showAllByTopic('tp')" aria-label="Show publications in Intelligent Transportation and Autonomous Systems" aria-pressed="false">
-                    <span class="direction-heading"><span class="direction-icon" aria-hidden="true"><i class="fa-solid fa-route"></i></span><span>Intelligent Transportation and Autonomous Systems</span></span>
-                    <span class="direction-tags">
-                      <span>Spatiotemporal Learning</span><span>Forecasting &amp; Optimization</span>
-                      <span>Reinforcement Learning</span><span>Autonomous Driving</span>
-                    </span>
-                  </button>
-                  <button class="research-direction direction-trust" type="button" data-topic="uq" onclick="showAllByTopic('uq')" aria-label="Show publications in Trustworthy AI" aria-pressed="false">
-                    <span class="direction-heading"><span class="direction-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></span><span>Trustworthy AI</span></span>
-                    <span class="direction-tags">
-                      <span>Uncertainty Quantification</span><span>Reliability &amp; Calibration</span><span>Fairness</span>
-                    </span>
-                  </button>
+                  <section class="research-direction direction-agents" data-topic="llm">
+                    <button class="direction-main" type="button" data-topic="llm" onclick="showAllByTopic('llm')" aria-label="Show publications in AI Agents and Foundation Models" aria-pressed="false">
+                      <span class="direction-heading"><span class="direction-icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></span><span>AI Agents and Foundation Models</span></span>
+                    </button>
+                    <div class="direction-tags" aria-label="AI Agents and Foundation Models subtopics">
+                      <button type="button" data-subtopic="llm-agents" onclick="showAllBySubtopic('llm-agents')" aria-pressed="false">LLM Agents</button>
+                      <button type="button" data-subtopic="tool-planning" onclick="showAllBySubtopic('tool-planning')" aria-pressed="false">Tool Use &amp; Planning</button>
+                      <button type="button" data-subtopic="rsi" onclick="showAllBySubtopic('rsi')" aria-pressed="false">Recursive Self-Improvement (RSI)</button>
+                      <button type="button" data-subtopic="multimodal" onclick="showAllBySubtopic('multimodal')" aria-pressed="false">Multimodal Reasoning</button>
+                      <button type="button" data-subtopic="agent-evaluation" onclick="showAllBySubtopic('agent-evaluation')" aria-pressed="false">Agent Evaluation</button>
+                      <button type="button" data-subtopic="ai-science" onclick="showAllBySubtopic('ai-science')" aria-pressed="false">AI for Science</button>
+                    </div>
+                  </section>
+                  <section class="research-direction direction-transport" data-topic="tp">
+                    <button class="direction-main" type="button" data-topic="tp" onclick="showAllByTopic('tp')" aria-label="Show publications in Intelligent Transportation and Autonomous Systems" aria-pressed="false">
+                      <span class="direction-heading"><span class="direction-icon" aria-hidden="true"><i class="fa-solid fa-route"></i></span><span>Intelligent Transportation and Autonomous Systems</span></span>
+                    </button>
+                    <div class="direction-tags" aria-label="Intelligent Transportation and Autonomous Systems subtopics">
+                      <button type="button" data-subtopic="spatiotemporal" onclick="showAllBySubtopic('spatiotemporal')" aria-pressed="false">Spatiotemporal Learning</button>
+                      <button type="button" data-subtopic="forecast-optimization" onclick="showAllBySubtopic('forecast-optimization')" aria-pressed="false">Forecasting &amp; Optimization</button>
+                      <button type="button" data-subtopic="reinforcement-learning" onclick="showAllBySubtopic('reinforcement-learning')" aria-pressed="false">Reinforcement Learning</button>
+                      <button type="button" data-subtopic="autonomous-driving" onclick="showAllBySubtopic('autonomous-driving')" aria-pressed="false">Autonomous Driving</button>
+                    </div>
+                  </section>
+                  <section class="research-direction direction-trust" data-topic="uq">
+                    <button class="direction-main" type="button" data-topic="uq" onclick="showAllByTopic('uq')" aria-label="Show publications in Trustworthy AI" aria-pressed="false">
+                      <span class="direction-heading"><span class="direction-icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></span><span>Trustworthy AI</span></span>
+                    </button>
+                    <div class="direction-tags" aria-label="Trustworthy AI subtopics">
+                      <button type="button" data-subtopic="uncertainty" onclick="showAllBySubtopic('uncertainty')" aria-pressed="false">Uncertainty Quantification</button>
+                      <button type="button" data-subtopic="calibration" onclick="showAllBySubtopic('calibration')" aria-pressed="false">Reliability &amp; Calibration</button>
+                      <button type="button" data-subtopic="fairness" onclick="showAllBySubtopic('fairness')" aria-pressed="false">Fairness</button>
+                    </div>
+                  </section>
                 </div>
+                <p id="research-filter-status" class="research-filter-status" aria-live="polite">Showing all publications</p>
               </td>
             </tr>
           </tbody>
@@ -1925,7 +1940,7 @@
       </td>
     </tr>
   </table>  
-  <script src="filterProjects.js"></script>  
+  <script src="filterProjects.js?v=20260913-2"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Automatically show selected pubs by date on page load

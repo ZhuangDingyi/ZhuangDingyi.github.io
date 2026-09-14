@@ -156,6 +156,26 @@ function filterPublications(filterFn) {
   });
 }
 
+function updateRelatedProjects(kind, key) {
+  const section = document.getElementById('related-open-source-projects');
+  if (!section) return 0;
+
+  let visibleCount = 0;
+  section.querySelectorAll('.related-project-card').forEach(card => {
+    const topics = (card.dataset.topic || '').split(/\s+/).filter(Boolean);
+    const subtopics = (card.dataset.subtopics || '').split(/\s+/).filter(Boolean);
+    const isVisible = kind === 'topic'
+      ? topics.includes(key)
+      : kind === 'subtopic' && subtopics.includes(key);
+
+    card.hidden = !isVisible;
+    if (isVisible) visibleCount += 1;
+  });
+
+  section.hidden = visibleCount === 0;
+  return visibleCount;
+}
+
 function setActiveFilter(kind, key) {
   const activeSubtopic = kind === 'subtopic'
     ? RESEARCH_SUBTOPICS.find(subtopic => subtopic.key === key)
@@ -180,10 +200,14 @@ function setActiveFilter(kind, key) {
   });
 }
 
-function updateFilterStatus(label, count) {
+function updateFilterStatus(label, publicationCount, projectCount = 0) {
   const status = document.getElementById('research-filter-status');
   if (!status) return;
-  status.textContent = `${label} · ${count} ${count === 1 ? 'publication' : 'publications'}`;
+  const publicationLabel = `${publicationCount} ${publicationCount === 1 ? 'publication' : 'publications'}`;
+  const projectLabel = projectCount
+    ? ` · ${projectCount} related open-source ${projectCount === 1 ? 'project' : 'projects'}`
+    : '';
+  status.textContent = `${label} · ${publicationLabel}${projectLabel}`;
 }
 
 function sortByYear(rows) {
@@ -214,6 +238,7 @@ function showSelected() {
     .filter(row => row.getAttribute('data-selected') === 'true');
 
   displayRows(rows);
+  updateRelatedProjects(null, null);
   setActiveFilter(null, null);
   updateFilterStatus('Selected publications', rows.length);
 }
@@ -224,6 +249,7 @@ function showAllByDate() {
 
   const rows = Array.from(table.querySelectorAll('tr.paper_entry'));
   displayRows(rows);
+  updateRelatedProjects(null, null);
   setActiveFilter(null, null);
   updateFilterStatus('All research directions', rows.length);
 }
@@ -236,9 +262,10 @@ function showAllByTopic(topic) {
     .filter(row => getCanonicalTopics(row).includes(topic));
 
   displayRows(rows);
+  const projectCount = updateRelatedProjects('topic', topic);
   setActiveFilter('topic', topic);
   const direction = RESEARCH_DIRECTIONS.find(item => item.key === topic);
-  updateFilterStatus(direction?.label || 'Research direction', rows.length);
+  updateFilterStatus(direction?.label || 'Research direction', rows.length, projectCount);
 }
 
 function showAllBySubtopic(subtopicKey) {
@@ -249,9 +276,10 @@ function showAllBySubtopic(subtopicKey) {
     .filter(row => getSubtopics(row).includes(subtopicKey));
 
   displayRows(rows);
+  const projectCount = updateRelatedProjects('subtopic', subtopicKey);
   setActiveFilter('subtopic', subtopicKey);
   const subtopic = RESEARCH_SUBTOPICS.find(item => item.key === subtopicKey);
-  updateFilterStatus(subtopic?.label || 'Research subtopic', rows.length);
+  updateFilterStatus(subtopic?.label || 'Research subtopic', rows.length, projectCount);
 }
 
 document.addEventListener('DOMContentLoaded', () => {

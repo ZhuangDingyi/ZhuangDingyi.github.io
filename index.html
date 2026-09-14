@@ -414,7 +414,7 @@
               <p>
                 For a complete list of publications, please visit my <a
                   href="https://scholar.google.com/citations?user=8fYfUB0AAAAJ">Google
-                  Scholar</a> page. Select a research direction below to explore related publications.
+                  Scholar</a> page. Select a research direction below to explore related research outputs.
               </p>
             </td>
           </tr>
@@ -426,7 +426,7 @@
               <td style="padding:0px 20px;width:100%;vertical-align:middle;">
                 <div class="research-taxonomy" aria-label="Research directions">
                   <section class="research-direction direction-agents" data-topic="llm">
-                    <button class="direction-main" type="button" data-topic="llm" onclick="showAllByTopic('llm')" aria-label="Show publications in AI Agents and Foundation Models" aria-pressed="false">
+                    <button class="direction-main" type="button" data-topic="llm" onclick="showAllByTopic('llm')" aria-label="Show research in AI Agents and Foundation Models" aria-pressed="false">
                       <span class="direction-heading"><span class="direction-icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></span><span>AI Agents and Foundation Models</span></span>
                     </button>
                     <div class="direction-tags" aria-label="AI Agents and Foundation Models subtopics">
@@ -461,6 +461,37 @@
             </tr>
           </tbody>
         </table>
+
+        <section id="related-open-source-projects" class="related-projects" aria-labelledby="related-projects-title" hidden>
+          <div class="related-projects-heading">
+            <h3 id="related-projects-title">Related Open-Source Projects</h3>
+            <p>Repositories related to this research direction.</p>
+          </div>
+          <div class="related-project-grid">
+            <article class="related-project-card" data-topic="llm" data-subtopics="rsi">
+              <a class="related-project-thumbnail" href="https://github.com/Human-Agent-Society/reef" target="_blank" rel="noopener noreferrer" aria-label="View Reef on GitHub">
+                <img src="data/thumbnails/reef.svg" alt="Reef continual self-improvement loop: serve, observe, grow, and commit" loading="lazy" decoding="async">
+              </a>
+              <div class="related-project-details">
+                <span class="related-project-type"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub project</span>
+                <h3><a href="https://github.com/Human-Agent-Society/reef" target="_blank" rel="noopener noreferrer">Reef</a></h3>
+                <p>Continual learning infrastructure for self-improving agents.</p>
+                <a class="related-project-link" href="https://github.com/Human-Agent-Society/reef" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Repository</a>
+              </div>
+            </article>
+            <article class="related-project-card" data-topic="llm" data-subtopics="rsi">
+              <a class="related-project-thumbnail" href="https://github.com/Human-Agent-Society/CORAL" target="_blank" rel="noopener noreferrer" aria-label="View CORAL on GitHub">
+                <img src="data/thumbnails/coral.png" alt="CORAL autonomous multi-agent experimentation and shared-knowledge workflow" loading="lazy" decoding="async">
+              </a>
+              <div class="related-project-details">
+                <span class="related-project-type"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub project</span>
+                <h3><a href="https://github.com/Human-Agent-Society/CORAL" target="_blank" rel="noopener noreferrer">CORAL</a></h3>
+                <p>Infrastructure for autonomous multi-agent experimentation and self-evolution.</p>
+                <a class="related-project-link" href="https://github.com/Human-Agent-Society/CORAL" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> Repository</a>
+              </div>
+            </article>
+          </div>
+        </section>
         
         <hr>
 
@@ -495,7 +526,7 @@
                 <papertitle>Rethinking Driving Topology Reasoning: Plug-and-Play Discrete Graph Refinement</papertitle>
               </a>
               <br>
-              <strong class="wrap">Dingyi Zhuang</strong>, Xiaoqi Wang, David Paz, Wenbin He, Jinhua Zhao, Liu Ren
+              <strong class="wrap">Dingyi Zhuang*</strong>, Xiaoqi Wang*, David Paz, Wenbin He, Jinhua Zhao, Liu Ren
               <br>
               <div class="media-box-conference"><strong><span class="paper_year">[NeurIPS]</span></strong></div>
               <span class="paper_conf">Under Review</span> <span class="paper_year">2026</span>
@@ -1970,7 +2001,7 @@
       </td>
     </tr>
   </table>  
-  <script src="filterProjects.js?v=20260913-5"></script>
+  <script src="filterProjects.js?v=20260913-6"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Automatically show selected pubs by date on page load

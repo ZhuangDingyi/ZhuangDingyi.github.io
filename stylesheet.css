@@ -608,6 +608,100 @@ span.highlight {
   text-align: right;
 }
 
+.related-projects {
+  margin: -2px 20px 18px;
+}
+
+.related-projects[hidden],
+.related-project-card[hidden] {
+  display: none;
+}
+
+.related-projects-heading {
+  align-items: baseline;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+
+.related-projects-heading h3 {
+  color: #263238;
+  font-size: 14px;
+  margin: 0;
+}
+
+.related-projects-heading p {
+  color: #7a8491;
+  font-size: 11px;
+  margin: 0;
+}
+
+.related-project-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.related-project-card {
+  border: 1px solid #dfe6e3;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 44% minmax(0, 1fr);
+  min-width: 0;
+  overflow: hidden;
+}
+
+.related-project-thumbnail {
+  align-items: center;
+  background: #f8fbfa;
+  border-right: 1px solid #e4ebe8;
+  display: flex;
+  justify-content: center;
+  min-height: 142px;
+  padding: 10px;
+}
+
+.related-project-thumbnail img {
+  height: 122px;
+  max-width: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
+.related-project-details {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 12px;
+}
+
+.related-project-type {
+  color: #28785d;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.related-project-details h3 {
+  font-size: 15px;
+  line-height: 1.25;
+  margin: 5px 0 4px;
+}
+
+.related-project-details p {
+  color: #525d69;
+  font-size: 11px;
+  line-height: 1.4;
+  margin: 0 0 8px;
+}
+
+.related-project-link {
+  font-size: 11px;
+  margin-top: auto;
+}
+
 .visitor-widget {
   min-height: 24px;
   padding: 0 20px 20px;
@@ -631,6 +725,20 @@ span.highlight {
 
   .direction-heading {
     min-height: auto;
+  }
+
+  .related-projects-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .related-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .related-project-card {
+    grid-template-columns: 42% minmax(0, 1fr);
   }
 }
 

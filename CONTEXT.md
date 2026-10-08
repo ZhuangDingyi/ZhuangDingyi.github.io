@@ -27,3 +27,11 @@ Secondary labels: Uncertainty Quantification; Reliability & Calibration; Fairnes
 - Legacy `st` is treated as an alias of `tp` until all historical cards are migrated.
 - `uq` maps to Trustworthy AI.
 - Google Scholar is the ownership and bibliographic cross-check, but duplicate preprint/published records are represented by one canonical website card.
+
+## Selected Publications
+
+The default selection is a deliberately small, high-signal portfolio rather than a list of the newest papers. A paper is prioritized when Dingyi is a first or equal-contribution author, it received a best-paper award or selective presentation distinction, it is a representative accepted work, or it directly supports the site's Recursive Self-Improvement (RSI) direction.
+
+Middle-author preprints and under-review papers remain available through “Show All by Date” unless they meet one of those stronger criteria. Best-paper labels must name the awarding workshop or venue so they cannot be mistaken for a main-conference award.
+
+The RSI portfolio currently connects the selected AlphaOPT publication with the CORAL and Reef open-source projects. CORAL and Reef appear in the related-project panel when the RSI filter is active.
